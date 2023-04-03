@@ -39,7 +39,7 @@ const Slider = () => {
 
   return (
     <div>
-        <img src="logo.png" className="logo-main" />
+        <img src="logo.png" className="logoslider" />
 
     <div className="slider">
        

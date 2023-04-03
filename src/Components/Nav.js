@@ -28,10 +28,10 @@ function Nav() {
           </Link>
 		  <a href = "https://www.tickettailor.com/events/erasmusdreamland1/"> TICKETS</a>
 
-          <Link to="/events" onClick={Events}>
+          <Link to="/events" onClick={() => {closeNav(); Events();}}>
             OUR EVENTS
           </Link>
-          <Link to="/gallery" onClick={ Gallery }>
+          <Link to="/gallery" onClick={() => {closeNav(); Gallery();}}>
             GALLERY
           </Link>
           <div className="dropdown">
@@ -45,7 +45,7 @@ function Nav() {
             </div>
             
           </div>
-          <Link to="/whatsapp-groups" onClick={ CountriesGallery } className="nav-item">
+          <Link to="/whatsapp-groups" onClick={() => {closeNav(); CountriesGallery();}} className="nav-item">
            WHATSAPP GROUPS
           </Link>
         </div>

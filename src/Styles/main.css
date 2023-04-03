@@ -32,47 +32,47 @@ nav a {
 
 
 nav a:hover {
-	color: var(--secondaryColor);
+color: var(--secondaryColor);
 
 }
-  a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 12px;
-    position: relative;
-  }
-  
-  .dropdown {
-    position: relative;
-	
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #1c1c1f;
-    padding-top: 5px;
-    width: 120px;
-    z-index: 1;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown-content a {
-    color: #fff;
-    display: block;
-    text-decoration: none;
-    padding: 5px;
-    font-size: 12px;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #000000;
-  }
+a {
+color: #fff;
+text-decoration: none;
+font-size: 12px;
+position: relative;
+}
+
+.dropdown {
+position: relative;
+
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: #1c1c1f;
+padding-top: 5px;
+width: 120px;
+z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown-content a {
+color: #fff;
+display: block;
+text-decoration: none;
+padding: 5px;
+font-size: 12px;
+}
+
+.dropdown-content a:hover {
+background-color: #000000;
+}
 
 
 /*ICONS*/
@@ -101,13 +101,23 @@ nav {
 .nav-item {
 	color: #25D366;
 }
-  
-  .nav-item:hover {
-	color: white;
+
+.nav-item:hover {
+color: white;
+}
+
+.logoslider {
+	position: absolute;
+	z-index: 1;
+	width: 200px;
+	top: 10rem;
+	left: 50%;
+	transform: translateX(-50%);
   }
 
-
 @media only screen and (max-width: 800px) {
+
+
 header .nav-btn {
 	visibility: visible;
 	opacity: 1;
@@ -120,7 +130,7 @@ header .nav-btn {
 	color: white;
   }
 
-nav {
+  nav {
 	position: fixed;
 	top: -100vh;
 	left: 0;
@@ -133,8 +143,8 @@ nav {
 	gap: 1.5rem;
 	background-color: var(--mainColor);
 	transition: 0.5s;
-	z-index: 2;
-}
+	z-index: 9999; /* Increase z-index to display above other elements */
+  }
 nav .nav-items{
 	flex-direction: column;
 	margin: 1.5rem;
@@ -163,31 +173,32 @@ nav a:hover {
 }
 
 .dropdown-content  {
-	display: none;
-	position: absolute;
-	top: 100%;
-	left: -100%;
-	background-color: #393939;
-	padding-top: 3px;
-	z-index: 99999999;
-	width: 300px;
-	z-index: 1;
-	}
+display: none;
+position: absolute;
+top: 100%;
+left: -100%;
+background-color: #393939;
+padding-top: 3px;
+z-index: 99999999;
+width: 300px;
+z-index: 1;
+}
 
-	.dropdown-content a {
-	color: #fff;
-	display: block;
-	text-decoration: none;
-	padding: 1px;
-	}
-
-	.logo-main {
+.dropdown-content a {
+color: #fff;
+display: block;
+text-decoration: none;
+padding: 1px;
+}
+.logoslider {
 	position: absolute;
 	z-index: 1;
 	width: 200px;
-	left: 35%;
+	left: 50%;
 	top: 10rem;
-}
+	transform: translateX(-50%);
+  }
+
 }
 
 
@@ -278,7 +289,7 @@ width: 100%;
 .tooltip {
 position: absolute;
 top: 20%;
-right: 20%;
+right: 10%;
 background-color: #fff;
 border: 1px solid #ccc;
 border-radius: 5px;
@@ -307,13 +318,13 @@ background-color: #ffff00;
 
 .tooltip p {
 text-align: center;
-margin: 10px;
+
 }
 
 @keyframes fadeIn {
 0% {
 	opacity: 0;
-	transform: translateX(10px);
+	transform: translateX(20px);
 }
 100% {
 	opacity: 1;
@@ -330,6 +341,36 @@ margin: 10px;
 	visibility: visible;
 	top: 65%;
 }
+}
+
+@keyframes fadeInFromBottom {
+	0% {
+	  opacity: 0;
+	  transform: translateY(100%);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(calc(0 -50%)); /* adjust 10px to fit your tooltip */
+	}
+  }
+
+@media only screen and (max-width: 800px) {
+	.tooltip {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: #fff;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+		animation: fadeInFromBottom 0.3s ease-in-out;
+	  }
+		.map {
+			position: absolute;
+			height: 500px;
+			width: 100%;
+			}
 }
 
 
