@@ -19,7 +19,7 @@ const CardEvents = ({ title, image, url, isPastEvent }) => {
       window.open(url, "_blank");
     }
   };
-
+  const imageClass = isPastEvent ? "past-events" : "";
   return (
     <div
       className="card-events"
@@ -30,7 +30,7 @@ const CardEvents = ({ title, image, url, isPastEvent }) => {
       <img
         src={image}
         alt={title}
-        className={isHovered ? "hovered" : ""}
+        className={`${isHovered ? "hovered" : ""} ${imageClass}`}
       />
       {!isPastEvent && isHovered && (
         <div className="message-box">

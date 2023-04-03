@@ -7,43 +7,39 @@ export const cardData = [
   {
     id: 1,
     title: 'BUY TICKETS',
-    image: '../upcoming/30MAR.png',
-    date: '2023-04-15',
-    url:'https://www.tickettailor.com/events/erasmusdreamland1/677353?',
+    image: '../upcoming/BRATIS13APRIL.png',
+    date: '2023-04-13',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/702013?',
   },
   {
     id: 2,
     title: 'BUY TICKETS',
-    image: '../upcoming/30MAR.png',
+    image: '../upcoming/PORTO20.jpeg',
     date: '2023-03-30',
-    url:'https://www.tickettailor.com/events/erasmusdreamland1/677353?',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/879711?',
   },
   {
     id: 3,
     title: 'BUY TICKETS',
-    image: '../upcoming/30MAR.png',
+    image: '../upcoming/MARTINI.png',
     date: '2023-05-01',
-    url:'https://www.tickettailor.com/events/erasmusdreamland1/677353?',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/856959?',
   },
   {
     id: 4,
     title: 'BUY TICKETS',
-    image: '../upcoming/30MAR.png',
+    image: '../upcoming/BRUUSELS.jpg',
     date: '2023-04-05',
-    url:'https://www.tickettailor.com/events/erasmusdreamland1/677353?',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/882222?',
   },
   {
     id: 5,
     title: 'BUY TICKETS',
-    image: '../upcoming/30MAR.png',    
+    image: '../upcoming/MUNICH.jpg',    
     date: '2023-04-20',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/888885?',
   },
-  {
-    id: 6,
-    title: 'BUY TICKETS',
-    image: '../upcoming/30MAR.png',
-    date: '2023-05-10',
-  },
+
 ];
 
   const CardList = () => {

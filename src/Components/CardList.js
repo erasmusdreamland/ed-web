@@ -5,38 +5,18 @@ import { Link, Route } from "react-router-dom";
 
 export const cardData = [
   {
+    id: 0,
+    title: '30-03 WRITE ON ME',
+    image: '/thumnails-gallery/thumbnail-draw.jpg',
+    linkUrl: "/draw",
+  },
+  {
     id: 1,
-    title: 'Card 1',
-    image: '0 2.jpg',
+    title: '04-02 ALVAMA ICE',
+    image: '/thumnails-gallery/thumbnail-alvama.jpg',
     linkUrl: "/alvama",
+  },
 
-  },
-  {
-    id: 2,
-    title: 'Card 2',
-    image: '0 2.jpg',
-    linkUrl: "/card2",
-  },
-  {
-    id: 3,
-    title: 'Card 3',
-    image: '0 2.jpg'
-  },
-  {
-    id: 4,
-    title: 'Card 4',
-    image: '0 2.jpg'
-  },
-  {
-    id: 5,
-    title: 'Card 5',
-    image: '0 2.jpg'
-  },
-  {
-    id: 6,
-    title: 'Card 6',
-    image: '0 2.jpg'
-  },
 ];
 
 const CardList = () => {

@@ -8,9 +8,16 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
-    imageFolder: '/giga/',
-    imageFiles:require.context('../../public/giga', false, /\.(jpe?g|png|gif)$/),
+    imageFolder: '/draw/',
+    imageFiles:require.context('../../public/draw', false, /\.(jpe?g|png|gif)$/),
+    title: 'WRITE ON ME PARTY | BRATISLAVA (SLOVAKIA) | 30.03.23'
   },
+  {
+    imageFolder: '/alvama/',
+    imageFiles:require.context('../../public/alvama', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS FESTIVAL @ALVAMAICE'
+  },
+
 ]
 
 const ImageSlider = () => {
@@ -72,7 +79,7 @@ const ImageSlider = () => {
 
   return (
     <div>
-      <h1 style={{ textAlign: 'center', fontWeight: 'bold', padding: '20px' }}>Image Gallery</h1>
+      <h1 className="title-gallery" >{folderInfo[id].title}</h1>
 
       <div className="image-gallery">
         {imageFiles.keys().map((imageName, index) => (

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Home from "./Home";
 import { Route } from 'react-router-dom';
-export const idCard = 0;
+export let idCard = 0;
 
 
 const Card = ({ id, title, image, linkUrl }) => {

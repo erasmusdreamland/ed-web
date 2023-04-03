@@ -10,8 +10,8 @@ const europeMap = require('../europe.json'); // GeoJSON file containing Europe m
 const Map = () => {
 
   const [projectionConfig, setProjectionConfig] = useState({
-    scale: 450,
-    center: [20, 55],
+    scale: 200,
+    center: [20, 20],
   });
 
   useEffect(() => {

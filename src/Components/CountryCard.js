@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Home from "./Home";
 import { Route } from 'react-router-dom';
 export let idCard = 0;
+
 const Countrycard = ({ id, title, image, linkUrl,icon }) => {
   const [isHovered, setIsHovered] = useState(false);
 
