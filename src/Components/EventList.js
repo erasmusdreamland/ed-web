@@ -35,7 +35,7 @@ export const cardData = [
   {
     id: 5,
     title: 'BUY TICKETS',
-    image: '../upcoming/30MAR.png',
+    image: '../upcoming/30MAR.png',    
     date: '2023-04-20',
   },
   {
