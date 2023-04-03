@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
 
 import "../Styles/main.css"
@@ -7,11 +7,28 @@ import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 const europeMap = require('../europe.json'); // GeoJSON file containing Europe map data
 
-
-
-
 const Map = () => {
+
+  const [projectionConfig, setProjectionConfig] = useState({
+    scale: 450,
+    center: [20, 55],
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      const screenWidth = window.innerWidth;
+      if (screenWidth < 800) {
+        setProjectionConfig({ scale: 450, center: [20, 55] });
+      } else {
+        setProjectionConfig({ scale: 200, center: [20, 20] });
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   
+
   const [tooltipContent, setTooltipContent] = useState('');
 
   const handleTooltip = (europeMap) => {
@@ -49,10 +66,7 @@ const Map = () => {
 
   return (
     <div className="map">
-      <ComposableMap
-        projection="geoMercator"
-        projectionConfig={{ scale: 200, center: [20,20] }}
-        >
+       <ComposableMap projection="geoMercator" projectionConfig={projectionConfig}>
         <Geographies geography={europeMap}>
           {({ geographies }) =>
           
@@ -61,7 +75,6 @@ const Map = () => {
               <Geography
                 key={geo.rsmKey}
                 geography={geo}
-                
                 onMouseEnter={() => handleTooltip(geo)}
                 onMouseLeave={resetTooltip}
                 className="rsm-geography"

@@ -357,7 +357,7 @@ text-align: center;
 @media only screen and (max-width: 800px) {
 	.tooltip {
 		position: absolute;
-		top: 50%;
+		top: 550px;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		background-color: #fff;
@@ -366,9 +366,10 @@ text-align: center;
 		box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 		animation: fadeInFromBottom 0.3s ease-in-out;
 	  }
+
 		.map {
 			position: absolute;
-			height: 500px;
+			height: 700px;
 			width: 100%;
 			}
 }
