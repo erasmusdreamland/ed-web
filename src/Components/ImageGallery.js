@@ -6,11 +6,12 @@ import { idCard } from './Card';
 
 
 
+
 const folderInfo = [
   {
     imageFolder: '/draw/',
     imageFiles:require.context('../../public/draw', false, /\.(jpe?g|png|gif)$/),
-    title: 'WRITE ON ME PARTY | BRATISLAVA (SLOVAKIA) | 30.03.23'
+    title: 'DRAW ON ME PARTY'
   },
   {
     imageFolder: '/alvama/',
@@ -19,6 +20,8 @@ const folderInfo = [
   },
 
 ]
+
+
 
 const ImageSlider = () => {
   const id = idCard

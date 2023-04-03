@@ -126,8 +126,8 @@ export const countryData = [
   {
     id: 17,
     title: 'Malta',
-    image: '../countries/Malta.jpg',
-    linkUrl: "/Malta",
+    image: '../countries/malta.jpg',
+    linkUrl: "/malta",
     icon: 'fi fi-mt',
   },
   {

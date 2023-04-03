@@ -28,6 +28,7 @@ nav a {
 	margin: 0 1rem;
 	color: var(--textColor);
 	text-decoration: none;
+	
 }
 
 
@@ -38,8 +39,10 @@ color: var(--secondaryColor);
 a {
 color: #fff;
 text-decoration: none;
-font-size: 12px;
+font-size: 15px;
 position: relative;
+
+
 }
 
 .dropdown {
@@ -270,8 +273,8 @@ padding: 1px;
 
 .bloque-5 h1 {
   font-size: 2rem;
-  font-family: 'MiedingerW01-Bold', sans-serif;
-  color: #fff;
+  font-family: 'Berkshire Swash', cursive;
+    color: #fff;
   padding-top: 30px;
 }
 
@@ -499,14 +502,13 @@ top: 10rem;
   }
   
   .card h3 {
-	font-size: 16px;
+	font-size: 20px;
 	border-radius:10px;
 	background-color: #ffff00;
 	padding: 5px 10px;
 	color: #000;
 	margin-top: 10px;
-	font-family: 'MiedingerW01-Bold';
-  }
+	font-family: 'Berkshire Swash', cursive;  }
   
   .card-list {
 	display: flex;
@@ -846,8 +848,7 @@ color: "#fff";
 font-size: 2rem;
 text-align: center;
 padding: 15px;
-font-family: 'MiedingerW01-Bold';
-}
+font-family: 'Berkshire Swash'}
 
 @media only screen and (max-width: 800px) {
 

@@ -1,42 +1,32 @@
 export const sliderData = [
     {
-        image: "0 2.jpg",
+        image: "/main-slider/0 257-min.jpg",
         heading: "BRNO 04/02/2023",
         desc: "The Biggest Erasmus Festival in Brno with Alvama Ice"
     }, 
     {
-        image: "0 37.jpg",
+        image: "/main-slider/martini1-min.jpg",
+        heading: "BRATISLAVA 14/10/2023",
+        desc: "The Biggest Erasmus Festival in Bratislava with Alex Martini"
+    }, 
+    {
+        image: "/main-slider/0 378-min.jpg",
         heading: "BRNO 04/02/2023",
         desc: "The Biggest Erasmus Festival in Brno with Alvama Ice"
     }, 
     {
-        image: "0 156.jpg",
+        image: "/main-slider/0 234-min.jpg",
         heading: "BRNO 04/02/2023",
         desc: "The Biggest Erasmus Festival in Brno with Alvama Ice"
     }, 
     {
-        image: "0 212.jpg",
+        image: "/main-slider/0 2-min.jpg",
         heading: "BRNO 04/02/2023",
         desc: "The Biggest Erasmus Festival in Brno with Alvama Ice"
     }, 
     {
-        image: "0 234.jpg",
+        image: "/main-slider/0 237-min.jpg",
         heading: "BRNO 04/02/2023",
         desc: "The Biggest Erasmus Festival in Brno with Alvama Ice"
     }, 
-    {
-        image: "0 237.jpg",
-        heading: "BRNO 04/02/2023",
-        desc: "The Biggest Erasmus Festival in Brno with Alvama Ice"
-    }, 
-    {
-        image: "0 257.jpg",
-        heading: "BRNO 04/02/2023",
-        desc: "The Biggest Erasmus Festival in Brno with Alvama Ice"
-    }, 
-    {
-        image: "0 378.jpg",
-        heading: "BRNO 04/02/2023",
-        desc: "The Biggest Erasmus Festival in Brno with Alvama Ice"
-    }
 ]
