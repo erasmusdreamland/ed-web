@@ -11,7 +11,7 @@ const folderInfo = [
   {
     imageFolder: '/draw/',
     imageFiles:require.context('../../public/draw', false, /\.(jpe?g|png|gif)$/),
-    title: 'DRAW ON ME PARTY'
+    title: 'WRITE ON ME PARTY | BRATISLAVA (SLOVAKIA) | 30.03.23'
   },
   {
     imageFolder: '/alvama/',

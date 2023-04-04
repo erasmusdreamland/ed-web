@@ -6,13 +6,13 @@ import { Link, Route } from "react-router-dom";
 export const cardData = [
   {
     id: 0,
-    title: '30-03 WRITE ON ME',
+    title: 'Write On Me Party | Bratislava  30.03 ',
     image: '/thumnails-gallery/thumbnail-draw.jpg',
     linkUrl: "/draw",
   },
   {
     id: 1,
-    title: '04-02 ALVAMA ICE',
+    title: 'The Biggest Erasmus Festival | Brno 04.02 ',
     image: '/thumnails-gallery/thumbnail-alvama.jpg',
     linkUrl: "/alvama",
   },
