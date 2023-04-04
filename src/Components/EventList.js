@@ -21,9 +21,30 @@ export const cardData = [
   {
     id: 3,
     title: 'BUY TICKETS',
+    image: '../upcoming/sex.jpg',
+    date: '2023-03-30',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/702001?',
+  },
+  {
+    id: 4,
+    title: 'BUY TICKETS',
+    image: '../upcoming/fut.jpg',
+    date: '2023-03-30',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/870295?',
+  },
+  {
+    id: 5,
+    title: 'BUY TICKETS',
     image: '../upcoming/MARTINI.jpg',
     date: '2023-05-01',
     url:'https://www.tickettailor.com/events/erasmusdreamland1/856959?',
+  },
+  {
+    id: 6,
+    title: 'BUY TICKETS',
+    image: '../upcoming/mex.jpg',
+    date: '2023-05-01',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/702016?',
   },
   {
     id: 4,
