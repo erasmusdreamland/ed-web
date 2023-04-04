@@ -38,7 +38,9 @@ const Map = () => {
     const img = europeMap.properties.IMAGE
     const city2 =  europeMap.properties.CITY2
     const club2 =  europeMap.properties.CLUB2
-    const cityAndClub = city && club ? `${city} ${club}` : 'soon';
+    const city3 =  europeMap.properties.CITY3
+    const club3 =  europeMap.properties.CLUB3
+    const cityAndClub = city && club ? `${city} ${club}` : 'We will be there very soon!';
   
     setTooltipContent((
       <div>
@@ -50,6 +52,9 @@ const Map = () => {
             )}
             {city2 && club2 && (
               <li>{city2} {club2}</li>
+            )}
+            {city3 && club3 && (
+              <li>{city3} {club3}</li>
             )}
           </ul>
         ) : (
