@@ -107,10 +107,16 @@ nav {
 .nav-item {
 	color: #25D366;
 }
+.nav-item-2 {
+	color: #eff31a;
+	}
 
 .nav-item:hover {
 color: white;
 }
+.nav-item-2:hover {
+	color: white;
+	}
 
 .logoslider {
 	position: absolute;
@@ -131,6 +137,7 @@ header .nav-btn {
 .nav-item {
 	color: #25D366;
   }
+
   
   .nav-item:hover {
 	color: white;

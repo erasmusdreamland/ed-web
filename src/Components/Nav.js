@@ -47,7 +47,7 @@ function Nav() {
             
           </div>
 
-          <Link to="/springbreak" onClick={() => {closeNav(); Croatia();}}>
+          <Link to="/springbreak" onClick={() => {closeNav(); Croatia();}} className="nav-item-2">
             SPRING BREAK FESTIVAL
           </Link>
 
