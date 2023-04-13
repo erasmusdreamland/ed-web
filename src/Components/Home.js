@@ -2,7 +2,7 @@ import React from 'react';
 import Map from './Map';
 import Slider from './Slider';
 import Body_2 from './Body_2'
-
+import Croatia from './CroatiaScript';
 
 function Home() {
   return (
@@ -11,7 +11,6 @@ function Home() {
         <Body_2 />
         <Map />
 
-   
     </div>
   );
 }

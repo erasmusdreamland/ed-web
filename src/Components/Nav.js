@@ -5,6 +5,7 @@ import '../Styles/main.css';
 import Gallery from './Gallery';
 import CountriesGallery from './WhatsappGroups';
 import Events from './Events';
+import Croatia from './CroatiaScript';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Nav() {
   const navRef = useRef();
@@ -45,6 +46,11 @@ function Nav() {
             </div>
             
           </div>
+
+          <Link to="/springbreak" onClick={() => {closeNav(); Croatia();}}>
+            SPRING BREAK FESTIVAL
+          </Link>
+
           <Link to="/whatsapp-groups" onClick={() => {closeNav(); CountriesGallery();}} className="nav-item">
            WHATSAPP GROUPS
           </Link>

@@ -10,7 +10,7 @@ const Card = ({ id, title, image, linkUrl }) => {
 
   const handleMouseEnter = () => {
     setIsHovered(true);
-  };
+  };     
 
   const handleMouseLeave = () => {
     setIsHovered(false);

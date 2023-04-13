@@ -4,12 +4,14 @@ import "../Styles/main.css";
 import Navbar from "./Nav";
 import Home from "./Home";
 import EventList from "./EventList";
-
+import Croatia from "./CroatiaScript";
 
 function Gallery() {
   return (
     <div>
 <EventList />
+<Croatia />
+
     </div>
   );
 }
