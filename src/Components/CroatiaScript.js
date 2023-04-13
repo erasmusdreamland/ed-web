@@ -10,9 +10,10 @@ const Croatia = () => {
       new window.DROPLET.Widget({
         host: 'fpronline.checkfront.com',
         target: 'CHECKFRONT_WIDGET_01',
-        item_id: '2162,2163',
+        item_id: '2162,2163,2164,2863,2166,2743',
         category_id: '35',
         tid: 'erasmusdreamland',
+        lang_id: 'en',
         locale_id: 'en_GB',
         options: 'tabs,hidesearch,hidedates',
         provider: 'droplet'
@@ -22,12 +23,12 @@ const Croatia = () => {
 
   return (
     <div className="croatiascript">
-        <div className="titles">
+      <div className="titles">
         <h1>Ready for the Latest Erasmus Festival in Croatia?</h1>
-        <h2>Book Your Spot at Big Beach Spring Break in Croatia and create memories to last a lifetime!</h2>
-        </div>
+        <h2>Book Your Spot at Big Beach Spring Break in Zrce Beach, Croatia, and create memories to last a lifetime!</h2>
+      </div>
       {/* CHECKFRONT BOOKING PLUGIN v25*/}
-      <div id="CHECKFRONT_WIDGET_01" className="crocards">
+      <div id="CHECKFRONT_WIDGET_01" className='crocards'>
         <p id="CHECKFRONT_LOADER" style={{ background: "url('//fpronline.checkfront.com/images/loader.gif') left center no-repeat", padding: "5px 5px 5px 20px" }}>
           Searching Availability...
         </p>
