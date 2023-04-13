@@ -24,7 +24,7 @@ const Croatia = () => {
   return (
     <div className="croatiascript">
       <div className="titles">
-        <h1>Ready for the Latest Erasmus Festival in Croatia?</h1>
+        <h1>Ready for the Latest Erasmus Dreamland Festival in Croatia?</h1>
         <h2>Book Your Spot at Big Beach Spring Break in Zrce Beach, Croatia, and create memories to last a lifetime!</h2>
       </div>
       {/* CHECKFRONT BOOKING PLUGIN v25*/}
