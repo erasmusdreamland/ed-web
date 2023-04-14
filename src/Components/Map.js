@@ -40,6 +40,18 @@ const Map = () => {
     const club2 =  europeMap.properties.CLUB2
     const city3 =  europeMap.properties.CITY3
     const club3 =  europeMap.properties.CLUB3
+    const city4 =  europeMap.properties.CITY4
+    const club4 =  europeMap.properties.CLUB4
+    const city5 =  europeMap.properties.CITY5
+    const club5 =  europeMap.properties.CLUB5
+    const city6 =  europeMap.properties.CITY6
+    const club6 =  europeMap.properties.CLUB6
+    const city7 =  europeMap.properties.CITY7
+    const club7 =  europeMap.properties.CLUB7
+    const city8 =  europeMap.properties.CITY8
+    const club8 =  europeMap.properties.CLUB8
+    const city9 =  europeMap.properties.CITY9
+    const club9 =  europeMap.properties.CLUB9
     const cityAndClub = city && club ? `${city} ${club}` : 'We will be there very soon!';
   
     setTooltipContent((
@@ -55,6 +67,24 @@ const Map = () => {
             )}
             {city3 && club3 && (
               <li>{city3} {club3}</li>
+            )}
+            {city4 && club4 && (
+              <li>{city4} {club4}</li>
+            )}
+            {city5 && club5 && (
+              <li>{city5} {club5}</li>
+            )}
+            {city6 && club6 && (
+              <li>{city6} {club6}</li>
+            )}
+            {city7 && club7 && (
+              <li>{city7} {club7}</li>
+            )}
+            {city8 && club8 && (
+              <li>{city8} {club8}</li>
+            )}
+            {city9 && club9 && (
+              <li>{city9} {club9}</li>
             )}
           </ul>
         ) : (
