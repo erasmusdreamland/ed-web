@@ -4,13 +4,7 @@ import { pastEvents } from './PastEvents';
 
 
 export const cardData = [
-  {
-    id: 1,
-    title: 'BUY TICKETS',
-    image: '../upcoming/BRATIS13APRIL.jpg',
-    date: '2023-04-13',
-    url:'https://www.tickettailor.com/events/erasmusdreamland1/702013?',
-  },
+
   {
     id: 2,
     title: 'BUY TICKETS',
@@ -59,6 +53,13 @@ export const cardData = [
     image: '../upcoming/MUNICH.jpg',    
     date: '2023-04-20',
     url:'https://www.tickettailor.com/events/erasmusdreamland1/888885?',
+  },
+  {
+    id: 6,
+    title: 'BUY TICKETS',
+    image: '../upcoming/TBEF BOLOGNA STORIES.jpg',    
+    date: '2023-05-18',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/899011?',
   },
 
 ];

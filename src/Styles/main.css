@@ -283,7 +283,7 @@ padding: 1px;
 
 .bloque-5 h1 {
   font-size: 2rem;
-  font-family: 'Berkshire Swash', cursive;
+font-weight: bold;
     color: #fff;
   padding-top: 30px;
 }
@@ -349,7 +349,7 @@ font-weight: bold;
 padding: 10px;
 border-radius: 5px;
 background-color: #ffff00;
-font-family: 'Berkshire Swash', cursive;
+
 font-weight: bold;
 
 }
@@ -548,6 +548,7 @@ top: 10rem;
 	padding: 5px 10px;
 	color: #000;
 	margin-top: 10px;
+	font-weight: bold;
 }
   
   .card-list {
@@ -852,6 +853,7 @@ color: #000;
 margin-top: 20px;
 display: flex;
 flex-direction: column;
+
 align-items: center;
 }
 
@@ -888,7 +890,8 @@ color: "#fff";
 font-size: 2rem;
 text-align: center;
 padding: 15px;
-font-family: 'Berkshire Swash'}
+font-weight: bold;
+}
 
 @media only screen and (max-width: 800px) {
 
