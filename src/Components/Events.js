@@ -10,7 +10,7 @@ function Gallery() {
   return (
     <div>
 <EventList />
-<Croatia />
+
 
     </div>
   );
