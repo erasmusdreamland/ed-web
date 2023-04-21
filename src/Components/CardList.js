@@ -6,12 +6,18 @@ import { Link, Route } from "react-router-dom";
 export const cardData = [
   {
     id: 0,
+    title: 'Sex Change Party | Bratislava  21.04.2023 ',
+    image: '/thumnails-gallery/DSC_2002.jpg',
+    linkUrl: "/sex-change",
+  },
+  {
+    id: 1,
     title: 'Write On Me Party | Bratislava  30.03 ',
     image: '/thumnails-gallery/thumbnail-draw.jpg',
     linkUrl: "/draw",
   },
   {
-    id: 1,
+    id: 2,
     title: 'The Biggest Erasmus Festival | Brno 04.02 ',
     image: '/thumnails-gallery/thumbnail-alvama.jpg',
     linkUrl: "/alvama",
