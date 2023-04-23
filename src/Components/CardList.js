@@ -7,13 +7,13 @@ export const cardData = [
   {
     id: 0,
     title: 'Football Cup Party | Bratislava  22.04.2023 ',
-    image: '/thumnails-gallery/DSC_1277.jpg',
+    image: '/thumnails-gallery/DSC_1277 (FILEminimizer).jpg',
     linkUrl: "/tournament-party",
   },
   {
     id: 1,
     title: 'Football Cup 2nd Edition | Bratislava  22.04.2023 ',
-    image: '/thumnails-gallery/DSC_1056.jpg',
+    image: '/thumnails-gallery/DSC_1056 (FILEminimizer).jpg',
     linkUrl: "/tournament-party",
   },
   {
