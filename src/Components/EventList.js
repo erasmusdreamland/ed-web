@@ -5,35 +5,35 @@ import { pastEvents } from './PastEvents';
 
 export const cardData = [
   {
-    id: 1,
+
     title: 'BUY TICKETS',
     image: '../upcoming/MARTINI.jpg',
     date: '2023-05-01',
     url:'https://www.tickettailor.com/events/erasmusdreamland1/856959?',
   },
   {
-    id: 2,
+
     title: 'BUY TICKETS',
     image: '../upcoming/mex.jpg',
     date: '2023-05-01',
     url:'https://www.tickettailor.com/events/erasmusdreamland1/702016?',
   },
   {
-    id: 3,
+
     title: 'BUY TICKETS',
     image: '../upcoming/BRUUSELS.jpg',
     date: '2023-04-05',
     url:'https://www.tickettailor.com/events/erasmusdreamland1/882222?',
   },
   {
-    id: 4,
+
     title: 'BUY TICKETS',
     image: '../upcoming/MUNICH.jpg',    
     date: '2023-04-20',
     url:'https://www.tickettailor.com/events/erasmusdreamland1/888885?',
   },
   {
-    id: 5,
+
     title: 'BUY TICKETS',
     image: '../upcoming/TBEF BOLOGNA STORIES.jpg',    
     date: '2023-05-18',
