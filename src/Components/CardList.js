@@ -40,7 +40,7 @@ export const cardData = [
     image: '/thumnails-gallery/DSC_1445 (FILEminimizer).jpg',
     linkUrl: "/mexican",
   },
-
+    
 ];
 
 const CardList = () => {
