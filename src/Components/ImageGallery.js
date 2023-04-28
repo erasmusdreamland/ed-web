@@ -12,7 +12,7 @@ const folderInfo = [
   {
     imageFolder: '/tournament-party/',
     imageFiles:require.context('../../public/tournament-party', false, /\.(jpe?g|png|gif)$/),
-    title: 'FOOTBALL CUP PARTY & GALA | BRATISLAVA (SLOVAKIA) | 22.04.23'
+    title: 'FOOTBALL CUPsssssssssss PARTY & GALA | BRATISLAVA (SLOVAKIA) | 22.04.23'
   },
   {
     imageFolder: '/tournament/',
