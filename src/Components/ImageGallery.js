@@ -25,7 +25,7 @@ const folderInfo = [
   },
   {
     imageFolder: '/sex-change/',
-    imageFiles:require.context('../../public/sex-change', false, /\.(jpe?g|png|gif)$/),
+    imageFiles:require.context('../../public/sex-change', false, /\.(jpe?g|png|gif)$/),  
     title: 'SEX CHANGE PARTY | BRATISLAVA (SLOVAKIA) | 21.04.23'
   }, 
   {
