@@ -9,6 +9,11 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/mexican/',
+    imageFiles:require.context('../../public/mexican', false, /\.(jpe?g|png|gif)$/),
+    title: 'MEXICAN PARTY | BRATISLAVA (SLOVAKIA) | 27.04.23'
+  },
+  {
     imageFolder: '/tournament-party/',
     imageFiles:require.context('../../public/tournament-party', false, /\.(jpe?g|png|gif)$/),
     title: 'FOOTBALL CUP PARTY & GALA | BRATISLAVA (SLOVAKIA) | 22.04.23'
