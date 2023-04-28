@@ -43,7 +43,7 @@ export const cardData = [
     
 ];
 
-const CardList = () => {
+const CardList = () => {    
   return (
     <div className="card-list">
       {cardData.slice().reverse().map(card => (
