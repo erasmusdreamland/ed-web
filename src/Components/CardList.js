@@ -34,6 +34,12 @@ export const cardData = [
     image: '/thumnails-gallery/DSC_1277 (FILEminimizer).jpg',
     linkUrl: "/tournament-party",
   },
+  {
+    id: 0,
+    title: 'Mexican Party | Bratislava  27.04.2023 ',
+    image: '/thumnails-gallery/DSC_1445 (FILEminimizer).jpg',
+    linkUrl: "/tournament-party",
+  },
 
 
 ];
