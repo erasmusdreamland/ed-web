@@ -8,11 +8,7 @@ import { idCard } from './Card';
 
 
 const folderInfo = [
-  {
-    imageFolder: '/porto/',
-    imageFiles:require.context('../../public/porto', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS FESTIVAL | PORTO (PORTUGAL) | 20.04.23'
-  },
+
   {
     imageFolder: '/krakow-festival/',
     imageFiles:require.context('../../public/krakow-festival', false, /\.(jpe?g|png|gif)$/),
@@ -38,6 +34,11 @@ const folderInfo = [
     imageFiles:require.context('../../public/sex-change', false, /\.(jpe?g|png|gif)$/),  
     title: 'SEX CHANGE PARTY | BRATISLAVA (SLOVAKIA) | 21.04.23'
   }, 
+  {
+    imageFolder: '/porto/',
+    imageFiles:require.context('../../public/porto', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS FESTIVAL | PORTO (PORTUGAL) | 20.04.23'
+  },
   {  
     imageFolder: '/draw/',
     imageFiles:require.context('../../public/draw', false, /\.(jpe?g|png|gif)$/),
