@@ -9,6 +9,11 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/porto/',
+    imageFiles:require.context('../../public/porto', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS FESTIVAL | PORTO (PORTUGAL) | 20.04.23'
+  },
+  {
     imageFolder: '/krakow-festival/',
     imageFiles:require.context('../../public/krakow-festival', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS FESTIVAL WITH ALEX MARTINI | KRAKOW (POLAND) | 27.04.23'
