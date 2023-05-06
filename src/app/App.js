@@ -25,7 +25,6 @@ function App() {
         <Route path="/gallery" element={ <Gallery /> } />
         <Route path="/whatsapp-groups" element={ <CountriesList/> } />
         <Route component={NotFound} />
-        <Route path="/springbreak" element={ <Croatia />} />
         {cardData.map((card) => (
           <Route key={card.id} path={card.linkUrl} element={<ImageGallery/>} />
         ))}

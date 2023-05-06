@@ -47,10 +47,6 @@ function Nav() {
             
           </div>
 
-          <Link to="/springbreak" onClick={() => {closeNav(); Croatia();}} className="nav-item-2">
-            SPRING BREAK FESTIVAL
-          </Link>
-
           <Link to="/whatsapp-groups" onClick={() => {closeNav(); CountriesGallery();}} className="nav-item">
            WHATSAPP GROUPS
           </Link>
