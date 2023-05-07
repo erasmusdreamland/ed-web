@@ -8,7 +8,11 @@ import { idCard } from './Card';
 
 
 const folderInfo = [
-
+  {
+    imageFolder: '/supercup/',
+    imageFiles:require.context('../../public/supercup', false, /\.(jpe?g|png|gif)$/),
+    title: 'FOOTBALL SUPERCUP | BRATISLAVA (SLOVAKIA) | 06.05.23'
+  },
   {
     imageFolder: '/krakow-festival/',
     imageFiles:require.context('../../public/krakow-festival', false, /\.(jpe?g|png|gif)$/),
