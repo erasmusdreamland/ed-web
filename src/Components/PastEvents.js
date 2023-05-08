@@ -1,6 +1,11 @@
 export const pastEvents = [
   {
 
+    image: '../past-22-23/BRUUSELSjpg',
+    pastEvent:true,
+    },
+  {
+
     image: '../past-22-23/MARTINI.jpg',
     pastEvent:true,
     },

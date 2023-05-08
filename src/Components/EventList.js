@@ -7,13 +7,6 @@ export const cardData = [
   {
 
     title: 'BUY TICKETS',
-    image: '../upcoming/BRUUSELS.jpg',
-    date: '2023-04-05',
-    url:'https://www.tickettailor.com/events/erasmusdreamland1/882222?',
-  },
-  {
-
-    title: 'BUY TICKETS',
     image: '../upcoming/MUNICH.jpg',    
     date: '2023-04-20',
     url:'https://www.tickettailor.com/events/erasmusdreamland1/888885?',
