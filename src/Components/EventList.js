@@ -12,12 +12,6 @@ export const cardData = [
     url:'https://www.tickettailor.com/events/erasmusdreamland1/882222?',
   },
   {
-    title: 'BUY TICKETS',
-    image: '../upcoming/BEREAL.png',    
-    date: '2023-05-18',
-    url:'https://www.tickettailor.com/events/erasmusdreamland1/911109?',
-  },
-  {
 
     title: 'BUY TICKETS',
     image: '../upcoming/MUNICH.jpg',    
@@ -27,31 +21,11 @@ export const cardData = [
   {
 
     title: 'BUY TICKETS',
-    image: '../upcoming/ED HEROS ST 2 (FILEminimizer).png',    
-    date: '2023-05-18',
-    url:'https://www.tickettailor.com/events/erasmusdreamland1/820272?',
-  },
-  {
-
-    title: 'BUY TICKETS',
     image: '../upcoming/TBEF BOLOGNA STORIES.jpg',    
     date: '2023-04-20',
     url:'https://www.tickettailor.com/events/erasmusdreamland1/888885?',
   },
-  {
 
-    title: 'BUY TICKETS',
-    image: '../upcoming/ED HAWAIIAN ST 2 (FILEminimizer).png',    
-    date: '2023-05-18',
-    url:'https://www.tickettailor.com/events/erasmusdreamland1/820274?',
-  },
-  {
-
-    title: 'BUY TICKETS',
-    image: '../upcoming/ED IBIZA ST 2 (FILEminimizer).png',    
-    date: '2023-05-18',
-    url:'https://www.tickettailor.com/events/erasmusdreamland1/820275?',
-  },
 
 ];
 
