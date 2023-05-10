@@ -9,6 +9,11 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/sunglasses-party/',
+    imageFiles:require.context('../../public/sunglasses-party', false, /\.(jpe?g|png|gif)$/),
+    title: 'SUNGLASSES PARTY | BRATISLAVA (SLOVAKIA) | 06.05.23'
+  },
+  {
     imageFolder: '/supercup/',
     imageFiles:require.context('../../public/supercup', false, /\.(jpe?g|png|gif)$/),
     title: 'FOOTBALL SUPERCUP | BRATISLAVA (SLOVAKIA) | 06.05.23'
