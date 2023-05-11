@@ -46,6 +46,9 @@ function Nav() {
             </div>
             
           </div>
+          <Link to="/croatia-festival" onClick={() => {closeNav(); CountriesGallery();}} style={{color:"yellow"}} className="nav-item">
+           SPRING BREAK FESTIVAL
+          </Link>
 
           <Link to="/whatsapp-groups" onClick={() => {closeNav(); CountriesGallery();}} className="nav-item">
            WHATSAPP GROUPS

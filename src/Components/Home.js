@@ -4,13 +4,13 @@ import Slider from './Slider';
 import Body_2 from './Body_2'
 import Croatia from './CroatiaScript';
 import ArtistCard from './ArtistsSlider';
-
 function Home() {
   return (
     <div>
         <Slider />
         <Body_2 />
         <Map />
+
 
 
     </div>
