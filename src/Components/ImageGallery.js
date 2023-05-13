@@ -10,7 +10,7 @@ import { idCard } from './Card';
 const folderInfo = [
   {
     imageFolder: '/munich/',
-    imageFiles:require.context('../../public/sunglasses-party', false, /\.(jpe?g|png|gif)$/),
+    imageFiles:require.context('../../public/munich', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS FESTIVAL | MUNICH (GERMANY) | 11.05.23'
   },
   {
