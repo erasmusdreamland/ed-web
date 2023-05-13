@@ -4,19 +4,20 @@ import { pastEvents } from './PastEvents';
 
 
 export const cardData = [
-  {
 
-    title: 'BUY TICKETS',
-    image: '../upcoming/MUNICH.jpg',    
-    date: '2023-04-20',
-    url:'https://www.tickettailor.com/events/erasmusdreamland1/888885?',
-  },
   {
 
     title: 'BUY TICKETS',
     image: '../upcoming/TBEF BOLOGNA STORIES.jpg',    
     date: '2023-04-20',
     url:'https://www.tickettailor.com/events/erasmusdreamland1/888885?',
+  },
+  {
+
+    title: 'BUY TICKETS',
+    image: '../upcoming/ED TBWEP BRA 11 SEPT ST (FILEminimizer).jpg',    
+    date: '2023-04-20',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/887055?',
   },
 
 
