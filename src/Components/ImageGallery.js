@@ -9,6 +9,11 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/munich/',
+    imageFiles:require.context('../../public/sunglasses-party', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS FESTIVAL | MUNICH (GERMANY) | 11.05.23'
+  },
+  {
     imageFolder: '/sunglasses-party/',
     imageFiles:require.context('../../public/sunglasses-party', false, /\.(jpe?g|png|gif)$/),
     title: 'SUNGLASSES PARTY | BRATISLAVA (SLOVAKIA) | 06.05.23'
