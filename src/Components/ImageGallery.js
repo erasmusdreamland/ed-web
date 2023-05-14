@@ -9,8 +9,8 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
-    imageFolder: '/ibiza-party/',
-    imageFiles:require.context('../../public/ibiza-party', false, /\.(jpe?g|png|gif)$/),
+    imageFolder: '/ibiparty/',
+    imageFiles:require.context('../../public/ibiparty', false, /\.(jpe?g|png|gif)$/),
     title: 'IBIZA PARTY | BRATISLAVA (SLOVAKIA) | 14.05.23'
   },
   {

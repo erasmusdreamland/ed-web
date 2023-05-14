@@ -74,7 +74,7 @@ export const cardData = [
     id: 0,
     title: 'Ibiza Party | Bratislava  14.05.2023 ',
     image: '/thumnails-gallery/22-IMG_0768 (FILEminimizer).jpg',
-    linkUrl: "/ibiza-party",
+    linkUrl: "/ibiparty",
   },
 
 
