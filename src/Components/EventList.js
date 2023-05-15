@@ -40,6 +40,13 @@ export const cardData = [
     date: '2023-04-20',
     url:'https://www.tickettailor.com/events/erasmusdreamland1/887086?',
   },
+  {
+
+    title: 'BUY TICKETS',
+    image: '../upcoming/ED TBWEP BRA 02 OCT ST (FILEminimizer).png',    
+    date: '2023-04-20',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/887631?',
+  },
 
 
 

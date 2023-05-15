@@ -3,13 +3,14 @@ import Map from './Map';
 import Slider from './Slider';
 import Body_2 from './Body_2'
 import Croatia from './CroatiaScript';
-import ArtistCard from './ArtistsSlider';
+import ArtistApp from './ArtistApp'; 
 function Home() {
   return (
     <div>
         <Slider />
         <Body_2 />
         <Map />
+
 
 
 
