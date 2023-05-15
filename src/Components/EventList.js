@@ -15,6 +15,13 @@ export const cardData = [
   {
 
     title: 'BUY TICKETS',
+    image: '../upcoming/WhatsApp Image 2023-05-14 at 21.11.50.jpeg',    
+    date: '2023-04-20',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/820274?',
+  },
+  {
+
+    title: 'BUY TICKETS',
     image: '../upcoming/ED LAS BRNO ST (FILEminimizer).png',    
     date: '2023-04-20',
     url:'https://www.tickettailor.com/events/erasmusdreamland1/913743?',
