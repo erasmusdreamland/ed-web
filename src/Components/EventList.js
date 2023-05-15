@@ -10,7 +10,7 @@ export const cardData = [
     title: 'BUY TICKETS',
     image: '../upcoming/TBEF BOLOGNA STORIES.jpg',    
     date: '2023-04-20',
-    url:'https://www.tickettailor.com/events/erasmusdreamland1/888885?',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/899011?',
   },
   {
 
@@ -26,6 +26,14 @@ export const cardData = [
     date: '2023-04-20',
     url:'https://www.tickettailor.com/events/erasmusdreamland1/887055?',
   },
+  {
+
+    title: 'BUY TICKETS',
+    image: '../upcoming/ED TBWEP MIL 15 SEPT ST (FILEminimizer).png',    
+    date: '2023-04-20',
+    url:'https://www.tickettailor.com/events/erasmusdreamland1/887086?',
+  },
+
 
 
 ];
