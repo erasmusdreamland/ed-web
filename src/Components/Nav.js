@@ -40,9 +40,9 @@ function Nav() {
               SOCIALS <i className="fa fa-angle-down"></i>
             </a>
             <div className="dropdown-content">
-              <a href="https://google.com">INSTAGRAM <i className="fa fa-instagram"></i></a>
-              <a href="#!" >FACEBOOK <i className="fa fa-facebook"></i></a>
-              <a href="#!">TIKTOK  <i class="fab fa-tiktok"></i></a>
+              <a href="https://www.instagram.com/erasmusdreamland/?hl=es">INSTAGRAM <i className="fa fa-instagram"></i></a>
+              <a href="https://www.facebook.com/erasmusdreamland/" >FACEBOOK <i className="fa fa-facebook"></i></a>
+              <a href="https://www.tiktok.com/@erasmusdreamland">TIKTOK  <i class="fab fa-tiktok"></i></a>
             </div>
             
           </div>
