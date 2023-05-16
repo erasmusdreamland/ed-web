@@ -1078,6 +1078,10 @@ font-weight: bold;
 		margin-top: 550px;
 	  }
 
+	  .image-details{
+		bottom: 82px;
+	  }
+
 	  .carousel-img-container {
 		width: calc(80% - 50px);
 		flex-shrink: 0;
