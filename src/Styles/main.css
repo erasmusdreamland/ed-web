@@ -993,6 +993,10 @@ font-weight: bold;
 	color: yellow;
 	font-weight: bold;
   }
+  .image-details p {
+	text-align: justify;
+  }
+  
   
   .carousel-img-container:hover .image-details {
 	opacity: 1;
