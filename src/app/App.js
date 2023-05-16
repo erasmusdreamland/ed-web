@@ -12,7 +12,7 @@ import CountriesList from '../Components/CountriesCards';
 import WhatsappButtons from '../Components/WhatsappLinks';
 import Croatia from '../Components/CroatiaScript';
 import PrivacyPolicy from '../Components/PrivacyPolicy';
-
+import TicketsScript from '../Components/TicketsScript';
 function App() {
   return (
 
@@ -27,6 +27,9 @@ function App() {
         <Route path="/gallery" element={ <Gallery /> } />
         <Route path="/whatsapp-groups" element={ <CountriesList/> } />
         <Route path="/croatia-festival" element={ <Croatia/> } />
+
+
+        <Route path="/tickets" element={ <TicketsScript/> } />
         <Route component={NotFound} />
         {cardData.map((card) => (
           <Route key={card.id} path={card.linkUrl} element={<ImageGallery/>} />

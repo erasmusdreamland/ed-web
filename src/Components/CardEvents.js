@@ -1,9 +1,11 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import Home from "./Home";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import Home from './Home';
 import { Route } from 'react-router-dom';
 
-const CardEvents = ({ title, image, url, isPastEvent }) => {
+export let idScript = 0;
+
+const CardEvents = ({ id, title, image, url, isPastEvent }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -16,10 +18,13 @@ const CardEvents = ({ title, image, url, isPastEvent }) => {
 
   const handleClick = () => {
     if (!isPastEvent) {
-      window.open(url, "_blank");
+      window.open(url, '_blank');
+      idScript = id; // Update the idScript variable with the id prop
     }
   };
-  const imageClass = isPastEvent ? "past-events" : "";
+
+  const imageClass = isPastEvent ? 'past-events' : '';
+
   return (
     <div
       className="card-events"
@@ -30,7 +35,7 @@ const CardEvents = ({ title, image, url, isPastEvent }) => {
       <img
         src={image}
         alt={title}
-        className={`${isHovered ? "hovered" : ""} ${imageClass}`}
+        className={`${isHovered ? 'hovered' : ''} ${imageClass}`}
       />
       {!isPastEvent && isHovered && (
         <div className="message-box">

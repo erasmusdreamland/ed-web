@@ -544,7 +544,7 @@ export const whatsappLinksInfo = [
             },
             {        
                 city: "Roma",        
-                whatsappLink: " https://chat.whatsapp.com/FJcQ0yInhje6T5JRYJ09yb"      
+                whatsappLink: "https://chat.whatsapp.com/FJcQ0yInhje6T5JRYJ09yb"      
             } ,
             {        
                 city: "Salerno",        
