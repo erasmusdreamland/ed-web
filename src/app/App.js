@@ -11,7 +11,7 @@ import { countryData } from '../Components/CountriesCards';
 import CountriesList from '../Components/CountriesCards';
 import WhatsappButtons from '../Components/WhatsappLinks';
 import Croatia from '../Components/CroatiaScript';
-
+import PrivacyPolicy from '../Components/PrivacyPolicy';
 
 function App() {
   return (
@@ -22,6 +22,8 @@ function App() {
       <Routes>
         <Route path="/" element={ <Home /> } />
         <Route path="/events" element={ <Events />} />
+        <Route path="/privacy-policy" element={ <PrivacyPolicy />} />
+
         <Route path="/gallery" element={ <Gallery /> } />
         <Route path="/whatsapp-groups" element={ <CountriesList/> } />
         <Route path="/croatia-festival" element={ <Croatia/> } />

@@ -284,7 +284,7 @@ padding: 1px;
 .bloque-5 h1 {
   font-size: 2rem;
 font-weight: bold;
-    color: #fff;
+    color: yellow;
   padding-top: 30px;
 }
 
@@ -949,7 +949,7 @@ font-weight: bold;
 
 
 .carousel-container {
-	margin-top: 600px;
+	margin-top: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1038,4 +1038,139 @@ font-weight: bold;
   .carousel-img.animate-reset {
 	transform: translateX(0);
   }
+
+  .carousel-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 550px;
+  }
+  
+  .carousel-title {
+	font-size: 2rem;
+	font-weight: bold;
+		color: yellow;
+	  padding-top: 30px;
+  }
+  
+  .carousel-subtitle {
+	font-size: 1.5rem;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+  }
+
+
+  @media (max-width: 767px) {
+	.carousel-wrapper {
+
+		margin-top: 550px;
+	  }
+
+	  .carousel-img-container {
+		width: calc(80% - 50px);
+		flex-shrink: 0;
+		margin: 0 10px;
+		position: relative;
+	  }
+
+	  .carousel-title {
+
+		  text-align: center;
+	  }
+
+	  .carousel-subtitle {
+
+		text-align: center;
+	  }
+  }
+
+
+
+
+
+
+  
+  
+
+
+  .footer {
+	background-color: #565656;
+	padding: 20px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .footer__company {
+	margin: 0;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 10px;
+  }
+  
+  .footer__links {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  .footer__link-item {
+	margin: 0 20px;
+	font-size: 14px;
+  }
+  
+  .footer__link {
+	color: yellow;
+	text-decoration: none;
+  }
+  
+  .footer__link:hover {
+	color: #ffffff;
+  }
+
+
+
+
+
+  /* Set font family and color for the entire component */
+.PrivacyPolicy {
+	font-family: Arial, sans-serif;
+
+  }
+  
+  /* Style the heading elements */
+  .PrivacyPolicy h1 {
+	font-size: 2rem;
+	color:yellow;
+	font-weight: bold;
+	margin-bottom: 1rem;
+  }
+  
+  .PrivacyPolicy h2 {
+	font-size: 1.5rem;
+	color: yellow;
+	font-weight: bold;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+  }
+  
+  /* Style the paragraph elements */
+  .PrivacyPolicy p {
+	font-size: 1rem;
+	color: white;
+	line-height: 1.5;
+	margin-bottom: 1rem;
+  }
+  
+  /* Add some padding and a border to the entire component */
+  .PrivacyPolicy {
+	padding: 2rem;
+
+	border-radius: 0.5rem;
+  }
+  
   
