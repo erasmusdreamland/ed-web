@@ -57,29 +57,38 @@ function ArtistSlider({ images }) {
       <div className="carousel-container">
         {visibleImagesArray.map((image, index) => (
           <div
-        className={`carousel-img-container ${hoveredImageIndex === index ? "hovered" : ""}`}
-        key={startImageIndex + index}
-        onMouseEnter={() => handleImageHover(index)}
-        onMouseLeave={handleImageLeave}
-      >
-        <img
-          className="carousel-img"
-          src={image.src}
-          alt="carousel"
-          title={image.title}
-          aria-describedby={image.description}
-        />
-        {hoveredImageIndex === index && (
-          <div className="image-details">
-            <h3>{image.title}</h3>
-            <p>{image.description} </p>
-            <a href={image.inst}>&nbsp;<i className="fa fa-instagram" style={{color:"yellow"}}></i></a>
-            <a href={image.tiktok}> &nbsp;<i class="fab fa-tiktok" style={{color:"yellow"}}></i></a>
-
+            className={`carousel-img-container ${hoveredImageIndex === index ? "hovered" : ""}`}
+            key={startImageIndex + index}
+            onMouseEnter={() => handleImageHover(index)}
+            onMouseLeave={handleImageLeave}
+          >
+            <img
+              className="carousel-img"
+              src={image.src}
+              alt="carousel"
+              title={image.title}
+              aria-describedby={image.description}
+            />
+            {hoveredImageIndex === index && (
+              <div className="image-details">
+                <h3>{image.title}</h3>
+                <p>{image.description}</p>
+                <div className="artist-icons">
+                  <a href={image.inst}>&nbsp;<i className="fa fa-instagram" style={{color:"yellow"}}></i></a>
+                  <a href={image.tiktok}>&nbsp;<i className="fab fa-tiktok" style={{color:"yellow"}}></i></a>
+                </div>
+              </div>
+            )}
+            {image.logo && (
+              <img
+                className="artist-logo"
+                src={image.logo}
+                alt={`${image.title} logo`}
+              />
+            )}
           </div>
-        )}
-      </div>
         ))}
+
         {showLeftArrow && (
           <button className="carousel-arrow prev" onClick={handlePrevClick}>
             &lt;
@@ -90,6 +99,7 @@ function ArtistSlider({ images }) {
             &gt;
           </button>
         )}
+        
       </div>
     </div>
   );

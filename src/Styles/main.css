@@ -984,7 +984,7 @@ font-weight: bold;
   
   .image-details {
 	position: absolute;
-	bottom: 0;
+	bottom: 90px;
 	left: 0;
 	right: 0;
 	padding: 10px;
@@ -1066,6 +1066,10 @@ font-weight: bold;
 	color: #fff;
 	font-family: 'Nunito', sans-serif;
   }
+.artist-logo{
+	margin-top: 5px;
+}
+
 
 
   @media (max-width: 767px) {
