@@ -16,7 +16,7 @@ function Footer() {
     };
   return (
     <footer className="footer">
-      <p className="footer__company">Erasmus Dreamland &copy; {new Date().getFullYear()}</p>
+      <p className="footer__company">Erasmus Dreamland &copy; {new Date().getFullYear()}. All rights reserved</p>
         <Link to="/privacy-policy" className="footer__link" onClick={() => {closeNav(); PrivacyPolicy();}}>Privacy Policy </Link>
 
     </footer>
