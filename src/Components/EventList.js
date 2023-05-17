@@ -87,7 +87,7 @@ const CardList = () => {
 
   return (
     <div style={{ backgroundColor: "#2d2d2d" }}>
-        <h1 className="title__whatsapp">Buy your tickets here!</h1>
+        <h1 className="title__whatsapp">BUY YOUR TICKETS HERE!</h1>
   
   
   <div className="card-list-events">

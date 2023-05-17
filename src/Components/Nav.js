@@ -32,7 +32,7 @@ function Nav() {
           <Link to="/events" onClick={() => {closeNav(); Events();}}>
 TICKETS          </Link>
           <Link to="/gallery" onClick={() => {closeNav(); Gallery();}}>
-            GALLERY
+            PHOTOS
           </Link>
           <div className="dropdown">
             <a href="#!" onClick={toggleNav}>
