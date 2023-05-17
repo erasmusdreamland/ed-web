@@ -755,7 +755,7 @@ export const whatsappLinksInfo = [
             } ,
             {        
                 city: "Wroclaw",        
-                whatsappLink: "https://chat.whatsapp.com/HUU01mfFaY3L6jrZVCjQQ4"      
+                whatsappLink: "https://chat.whatsapp.com/FRbasBlPtZv67Ep2yUcAfX"      
             },
         ]
     },
