@@ -12,15 +12,8 @@ function Home() {
         <Slider />
         <Body_2 />
         <Map />
-
         <ArtistApp />
         <Footer />
-
-
-
-
-
-
     </div>
   );
 }

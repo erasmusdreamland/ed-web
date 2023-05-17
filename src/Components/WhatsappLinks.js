@@ -3,6 +3,8 @@ import '../Styles/main.css';
 import { cardData } from './CardList';
 import Card from './Card';
 import Countrycard, { idCard } from './CountryCard'
+import Footer from './Footer';
+
 import { whatsappLinksInfo } from './LinksData';
 
 
@@ -21,7 +23,9 @@ const WhatsappButtons = () => {
               </button>
             </a>
           ))}
+
         </div>
+
       </div>
     );
   };

@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card';
 import { Link, Route } from "react-router-dom";
 import Countrycard from './CountryCard';
-
+import Footer from './Footer';
 export const countryData = [
   {
     id: 0,
@@ -209,7 +209,9 @@ const CountriesList = () => {
       {countryData.map(cardCountry => (
         <Countrycard id={cardCountry.id} title={cardCountry.title} image={cardCountry.image} linkUrl={cardCountry.linkUrl} icon={cardCountry.icon}/>
       ))}
+
     </div>
+    
   );
 };
 

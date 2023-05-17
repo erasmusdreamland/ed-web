@@ -27,11 +27,10 @@ function Nav() {
           <Link exact to="/" onClick={closeNav}>
             HOME
           </Link>
-		  <a href = "https://www.tickettailor.com/events/erasmusdreamland1/"> TICKETS</a>
+
 
           <Link to="/events" onClick={() => {closeNav(); Events();}}>
-            OUR EVENTS
-          </Link>
+TICKETS          </Link>
           <Link to="/gallery" onClick={() => {closeNav(); Gallery();}}>
             GALLERY
           </Link>
@@ -46,9 +45,7 @@ function Nav() {
             </div>
             
           </div>
-          <Link to="/croatia-festival" onClick={() => {closeNav(); CountriesGallery();}} style={{color:"yellow"}} className="nav-item">
-           SPRING BREAK FESTIVAL
-          </Link>
+
 
           <Link to="/whatsapp-groups" onClick={() => {closeNav(); CountriesGallery();}} className="nav-item">
            WHATSAPP GROUPS

@@ -152,7 +152,7 @@ export const whatsappLinksInfo = [
             },     
             {        
                 city: "Pilsen",        
-                whatsappLink: "https://chat.whatsapp.com/LDyWBrqO3ijJUCE3sazaQZ"      
+                whatsappLink: "https://chat.whatsapp.com/GLugwzOQODR4gvykXyyBxM"      
             },      
             {        
                 city: "Prague",        
@@ -307,7 +307,7 @@ export const whatsappLinksInfo = [
             },
             {        
                 city: "Dortmund",        
-                whatsappLink: "https://chat.whatsapp.com/FEuXK3NMlvWHJoK2Mj1sIr"      
+                whatsappLink: "https://chat.whatsapp.com/L6Sv7vcPit8BDw0jMQfjxT"      
             },
             {        
                 city: "Munster",        
@@ -467,7 +467,7 @@ export const whatsappLinksInfo = [
             } ,
             {        
                 city: "Ferrara",        
-                whatsappLink: "https://chat.whatsapp.com/LaBlijyCJwVKgrO8HvvFBI"      
+                whatsappLink: "https://chat.whatsapp.com/DvCxTTk8w7t6klebWSDNHD"      
             },
             {        
                 city: "Florencia",        
@@ -548,7 +548,7 @@ export const whatsappLinksInfo = [
             } ,
             {        
                 city: "Salerno",        
-                whatsappLink: "https://chat.whatsapp.com/ETFN3pqv3LuHPc9nOZujY8"      
+                whatsappLink: "https://chat.whatsapp.com/LXfmFJniEJMGifsDsyXc6Y"      
             } ,
             {        
                 city: "Sassari",        
@@ -606,7 +606,7 @@ export const whatsappLinksInfo = [
             } ,
             {        
                 city: "Kaunas",        
-                whatsappLink: "https://chat.whatsapp.com/JHg9aQMDCm5FoV6MQN6MOg"      
+                whatsappLink: "https://chat.whatsapp.com/EGbkUmxhNBWAREJuQ91HeM"      
             } ,
             {        
                 city: "Klaipéda",        
@@ -784,7 +784,7 @@ export const whatsappLinksInfo = [
             } ,
             {        
                 city: "Porto",        
-                whatsappLink: "https://chat.whatsapp.com/BsW9Kx0t4UL7djEauTosXz"      
+                whatsappLink: "https://chat.whatsapp.com/I44x6NZo11gEMrC6E0eFlj"      
             },
             {        
                 city: "Viana do Castelo",        

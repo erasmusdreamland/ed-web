@@ -1,25 +1,57 @@
 import React, { useEffect } from 'react';
-import { cardData } from './EventList';
-import { idScript } from './CardEvents';
 
+import { idR } from './CardEvents';
+import { useParams } from 'react-router-dom';
+import Footer from './Footer';
 const scriptData = [
+  {
+    party: "MARTINI",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2245510/chk/c63c/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2245510/chk/c63c/?ref=website_widget',
+    image: "/banner-tickets/bologna.png"
+  },
+  {
+    party: "BRATIS",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/1843815/chk/13f9/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/1843815/chk/13f9/?ref=website_widget',
+    image: "/banner-tickets/brno.png"
+  },
+  {
+    party: "BRNO",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2363436/chk/9c85/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2363436/chk/9c85/?ref=website_widget',
+    image: "/banner-tickets/brno2.png"
+  },
   {
     party: "BRATISLAVA OPENING",
     url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
     url2: "https://www.tickettailor.com/checkout/new-session/id/2072388/chk/006b/?ref=website_widget",
     url3: 'https://www.tickettailor.com/checkout/new-session/id/2072388/chk/006b/?ref=website_widget',
+    image: "/banner-tickets/bratis.png"
+  },
+  {
+    party: "PRAGA OPEN",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2072402/chk/db0f/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2072402/chk/db0f/?ref=website_widget',
+    image:"/banner-tickets/prague.png"
   },
   {
     party: "MILAN OPENING",
     url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
     url2: "https://www.tickettailor.com/checkout/new-session/id/2072405/chk/55c6/?ref=website_widget",
     url3: 'https://www.tickettailor.com/checkout/new-session/id/2072405/chk/55c6/?ref=website_widget',
+    image:"/banner-tickets/milan.png"
   },
   {
     party: "GREECE OPENING",
     url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
     url2: "https://www.tickettailor.com/checkout/new-session/id/2075146/chk/e353/?ref=website_widget",
     url3: 'https://www.tickettailor.com/checkout/new-session/id/2075146/chk/e353/?ref=website_widget',
+    image:"/banner-tickets/greece.png"
   }
 
 ]
@@ -27,14 +59,17 @@ const scriptData = [
 
 
 const TicketsScript = () => {
+
+  let { id } = useParams();
   useEffect(() => {
+    let idR = Number(id);
     const script = document.createElement('script');
-    script.src = scriptData[idScript].url1;
-    script.setAttribute('data-url', scriptData[idScript].url2);
+    script.src = "https://cdn.tickettailor.com/js/widgets/min/widget.js";
+    script.setAttribute('data-url', scriptData[idR].url2);
     script.setAttribute('data-type', 'inline');
     script.setAttribute('data-inline-minimal', 'true');
     script.setAttribute('data-inline-show-logo', 'false');
-    script.setAttribute('data-inline-bg-fill', 'true');
+    script.setAttribute('data-inline-bg-fill', 'false');
     script.setAttribute('data-inline-inherit-ref-from-url-param', '');
     script.setAttribute('data-inline-ref', 'website_widget');
 
@@ -44,7 +79,7 @@ const TicketsScript = () => {
     divFallback.className = 'tt-widget-fallback';
     const p = document.createElement('p');
     const a = document.createElement('a');
-    a.href = scriptData[idScript].url3;
+    a.href = scriptData[idR].url2;
     a.target = '_blank';
     a.innerText = 'Click here to buy tickets';
     p.appendChild(a);
@@ -54,9 +89,17 @@ const TicketsScript = () => {
 
     const widgetContainer = document.getElementById('widget-container');
     widgetContainer.appendChild(divWidget);
-  }, []);
+  }, [id]);
+  const idR = Number(id);
 
-  return <div id="widget-container"></div>;
+
+  return (
+    <div className='ticket-page'>
+      <img src={scriptData[idR].image} alt="Party Image" className='banner-tickets' />
+      <div id="widget-container" className="center-container"></div>
+      <Footer />
+    </div>
+  );
 };
 
 export default TicketsScript;
