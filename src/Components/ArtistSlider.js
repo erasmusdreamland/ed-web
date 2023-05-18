@@ -1,10 +1,18 @@
-import React, { useState, useEffect } from "react";
-import { FaBars, FaTimes } from 'react-icons/fa';
+import React, { useState, useEffect, useRef } from "react";
+import {
+  FaBars,
+  FaTimes,
+  FaInstagram,
+  FaTiktok,
+  FaArrowAltCircleLeft,
+  FaArrowAltCircleRight
+} from 'react-icons/fa';
 
 function ArtistSlider({ images }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [hoveredImageIndex, setHoveredImageIndex] = useState(-1);
   const [visibleImages, setVisibleImages] = useState(4);
+  const logoRef = useRef(null);
 
   const handlePrevClick = () => {
     setCurrentImageIndex(Math.max(0, currentImageIndex - 1));
@@ -25,7 +33,7 @@ function ArtistSlider({ images }) {
   const handleImageHover = (index) => {
     setHoveredImageIndex(index);
   };
-  
+
   const handleImageLeave = () => {
     setHoveredImageIndex(-1);
   };
@@ -48,6 +56,12 @@ function ArtistSlider({ images }) {
     return () => window.removeEventListener("resize", handleResize);
   }, [currentImageIndex, images.length, visibleImages]);
 
+  useEffect(() => {
+    const logoHeight = logoRef.current ? logoRef.current.offsetHeight : 0;
+    // Use the logoHeight value in CSS or perform any other logic based on the height value
+    console.log("Logo height:", logoHeight);
+  }, [logoRef.current]);
+
   return (
     <div className="carousel-wrapper">
       <h2 className="carousel-title">OUR ARTISTS</h2>
@@ -62,26 +76,29 @@ function ArtistSlider({ images }) {
             onMouseEnter={() => handleImageHover(index)}
             onMouseLeave={handleImageLeave}
           >
-            <img
-              className="carousel-img"
-              src={image.src}
-              alt="carousel"
-              title={image.title}
-              aria-describedby={image.description}
-            />
-            {hoveredImageIndex === index && (
-              <div className="image-details">
-                <h3>{image.title}</h3>
-                <p>{image.description}</p>
-                <div className="artist-icons">
-                  <a href={image.inst}>&nbsp;<i className="fa fa-instagram" style={{color:"yellow"}}></i></a>
-                  <a href={image.tiktok}>&nbsp;<i className="fab fa-tiktok" style={{color:"yellow"}}></i></a>
+            <div className="carousel-img-details">
+              <img
+                className="carousel-img"
+                src={image.src}
+                alt="carousel"
+                title={image.title}
+                aria-describedby={image.description}
+              />
+              {hoveredImageIndex === index && (
+                <div className="image-details">
+                  <h3>{image.title}</h3>
+                  <p>{image.description}</p>
+                  <div className="artist-icons">
+                    <a href={image.inst}>&nbsp;<i className="fa fa-instagram" style={{ color: "yellow" }}></i></a>
+                    <a href={image.tiktok}>&nbsp;<i className="fab fa-tiktok" style={{ color: "yellow" }}></i></a>
+                  </div>
                 </div>
-              </div>
-            )}
+              )}
+            </div>
             {image.logo && (
               <img
                 className="artist-logo"
+                ref={logoRef}
                 src={image.logo}
                 alt={`${image.title} logo`}
               />
@@ -91,15 +108,15 @@ function ArtistSlider({ images }) {
 
         {showLeftArrow && (
           <button className="carousel-arrow prev" onClick={handlePrevClick}>
-            &lt;
+            <FaArrowAltCircleLeft />
           </button>
         )}
         {showRightArrow && (
           <button className="carousel-arrow next" onClick={handleNextClick}>
-            &gt;
+            <FaArrowAltCircleRight />
           </button>
         )}
-        
+
       </div>
     </div>
   );
