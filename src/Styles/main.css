@@ -1023,42 +1023,21 @@ font-weight: bold;
 	transition: background-color 0.3s ease-in-out;
   }
   
-  .carousel-arrow.prev,
-  .carousel-arrow.next {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	background-color: #ff5f5f;
-	color: #ffffff;
-	padding: 10px;
-	border-radius: 50%;
-	border: none;
-	font-size: 20px;
-	cursor: pointer;
-	transition: background-color 0.3s ease;
-  }
-  
   .carousel-arrow.prev {
 	left: 10px;
-	border-radius: 4px 0 0 4px;
-	content: "<"; /* Set the content to your desired icon or character */
+	padding: 10px 15px;
+	border-radius: 0 4px 4px 0;
   }
   
   .carousel-arrow.next {
 	right: 10px;
-	border-radius: 0 4px 4px 0;
-	content: ">"; /* Set the content to your desired icon or character */
-  }
-  
-  .carousel-arrow.prev:hover,
-  .carousel-arrow.next:hover {
-	background-color: #ff3f3f;
+	padding: 10px 15px;
+	border-radius: 4px 0 0 4px;
   }
   
   .carousel-arrow.hide-arrow {
 	display: none;
   }
-  
   
   .carousel-img.animate-prev {
 	transform: translateX(-25%);

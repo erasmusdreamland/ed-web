@@ -14,31 +14,6 @@ function ArtistSlider({ images }) {
     setCurrentImageIndex(Math.min(images.length - visibleImages, currentImageIndex + 1));
   };
 
-  const handleSwipe = () => {
-    const threshold = 50; // Minimum distance for a swipe action
-    const deltaX = endX - startX;
-
-    if (deltaX > threshold) {
-      // Swipe to the left (previous card)
-      handlePrevClick();
-    } else if (deltaX < -threshold) {
-      // Swipe to the right (next card)
-      handleNextClick();
-    }
-  };
-
-  let startX;
-  let endX;
-
-  const startSwipe = (e) => {
-    startX = e.clientX || e.touches[0].clientX;
-  };
-
-  const endSwipe = (e) => {
-    endX = e.clientX || e.changedTouches[0].clientX;
-    handleSwipe();
-  };
-
   const startImageIndex = Math.max(0, currentImageIndex);
   const endImageIndex = Math.min(images.length - 1, startImageIndex + visibleImages - 1);
 
@@ -50,7 +25,7 @@ function ArtistSlider({ images }) {
   const handleImageHover = (index) => {
     setHoveredImageIndex(index);
   };
-
+  
   const handleImageLeave = () => {
     setHoveredImageIndex(-1);
   };
