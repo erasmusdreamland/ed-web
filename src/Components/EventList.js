@@ -47,13 +47,22 @@ export const cardData = [
   {
     id: 5,
     title: 'BUY TICKETS',
+    image: '../upcoming/ED TBWEP BRNO 12 SEPT ST (FILEminimizer).png',    
+    date: '2023-04-20',
+    url:'/tickets',
+    script:"https://www.tickettailor.com/checkout/new-session/id/2075146/chk/e353/?ref=website_widget"
+  },
+
+  {
+    id: 6,
+    title: 'BUY TICKETS',
     image: '../upcoming/ED TBWEP MIL 15 SEPT ST (FILEminimizer).png',    
     date: '2023-04-20',
     url:'/tickets',
     script:'https://www.tickettailor.com/checkout/new-session/id/2072405/chk/55c6/?ref=website_widget'
   },
   {
-    id: 6,
+    id: 7,
     title: 'BUY TICKETS',
     image: '../upcoming/ED TBWEP BRA 02 OCT ST (FILEminimizer).png',    
     date: '2023-04-20',

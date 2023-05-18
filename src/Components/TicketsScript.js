@@ -40,6 +40,14 @@ const scriptData = [
     image:"/banner-tickets/prague.png"
   },
   {
+    party: "BRNO OPENING",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2072392/chk/ba44/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2072392/chk/ba44/?ref=website_widget',
+    image:"/banner-tickets/brno-welcome.png"
+  },
+
+  {
     party: "MILAN OPENING",
     url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
     url2: "https://www.tickettailor.com/checkout/new-session/id/2072405/chk/55c6/?ref=website_widget",
@@ -53,6 +61,8 @@ const scriptData = [
     url3: 'https://www.tickettailor.com/checkout/new-session/id/2075146/chk/e353/?ref=website_widget',
     image:"/banner-tickets/greece.png"
   }
+
+
 
 ]
 
