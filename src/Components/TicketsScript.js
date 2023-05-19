@@ -4,21 +4,7 @@ import { idR } from './CardEvents';
 import { useParams } from 'react-router-dom';
 import Footer from './Footer';
 const scriptData = [
-  {
-    party: "MARTINI",
-    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
-    url2: "https://www.tickettailor.com/checkout/new-session/id/2245510/chk/c63c/?ref=website_widget",
-    url3: 'https://www.tickettailor.com/checkout/new-session/id/2245510/chk/c63c/?ref=website_widget',
-    image: "/banner-tickets/bologna.png"
-  },
-  {
-    party: "BRATIS",
-    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
-    url2: "https://www.tickettailor.com/checkout/new-session/id/1843815/chk/13f9/?ref=website_widget",
-    url3: 'https://www.tickettailor.com/checkout/new-session/id/1843815/chk/13f9/?ref=website_widget',
-    image: "/banner-tickets/brno.png"
-  },
-  {
+    {
     party: "BRNO",
     url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
     url2: "https://www.tickettailor.com/checkout/new-session/id/2363436/chk/9c85/?ref=website_widget",
