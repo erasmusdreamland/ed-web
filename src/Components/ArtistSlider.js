@@ -8,7 +8,6 @@ import {
   FaArrowAltCircleRight
 } from 'react-icons/fa';
 
-import { useState, useRef, useEffect } from 'react';
 
 function ArtistSlider({ images }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
