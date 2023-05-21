@@ -16,11 +16,13 @@ function ArtistSlider({ images }) {
   const logoRef = useRef(null);
   const touchStartX = useRef(null);
 
-  const handlePrevClick = () => {
+  const handlePrevClick = (event) => {
+    event.preventDefault(); // Prevent default button click behavior
     setCurrentImageIndex(Math.max(0, currentImageIndex - 1));
   };
-
-  const handleNextClick = () => {
+  
+  const handleNextClick = (event) => {
+    event.preventDefault(); // Prevent default button click behavior
     setCurrentImageIndex(Math.min(images.length - visibleImages, currentImageIndex + 1));
   };
 
