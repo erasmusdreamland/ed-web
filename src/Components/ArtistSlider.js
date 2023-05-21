@@ -8,6 +8,7 @@ import {
   FaArrowAltCircleRight
 } from 'react-icons/fa';
 
+
 function ArtistSlider({ images }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [hoveredImageIndex, setHoveredImageIndex] = useState(-1);
@@ -16,23 +17,11 @@ function ArtistSlider({ images }) {
   const touchStartX = useRef(null);
 
   const handlePrevClick = () => {
-    setCurrentImageIndex((prevIndex) => {
-      const newIndex = Math.max(0, prevIndex - 1);
-      setTimeout(() => {
-        setHoveredImageIndex(-1);
-      }, 300); // Adjust the delay time for the animation
-      return newIndex;
-    });
+    setCurrentImageIndex(Math.max(0, currentImageIndex - 1));
   };
 
   const handleNextClick = () => {
-    setCurrentImageIndex((prevIndex) => {
-      const newIndex = Math.min(images.length - visibleImages, prevIndex + 1);
-      setTimeout(() => {
-        setHoveredImageIndex(-1);
-      }, 300); // Adjust the delay time for the animation
-      return newIndex;
-    });
+    setCurrentImageIndex(Math.min(images.length - visibleImages, currentImageIndex + 1));
   };
 
   const startImageIndex = Math.max(0, currentImageIndex);
@@ -65,6 +54,31 @@ function ArtistSlider({ images }) {
       handleNextClick();
     }
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setVisibleImages(1);
+      } else {
+        setVisibleImages(4);
+        const newCurrentImageIndex = Math.max(0, currentImageIndex - (visibleImages - 4));
+        setCurrentImageIndex(Math.min(images.length - visibleImages, newCurrentImageIndex));
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, [currentImageIndex, images.length, visibleImages]);
+
+  useEffect(() => {
+    const logoHeight = logoRef.current ? logoRef.current.offsetHeight : 0;
+    // Use the logoHeight value in CSS or perform any other logic based on the height value
+    console.log('Logo height:', logoHeight);
+  }, [logoRef.current]);
+
   return (
     <div className="carousel-wrapper">
       <h2 className="carousel-title">OUR ARTISTS</h2>
