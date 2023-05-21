@@ -7,15 +7,9 @@ import TicketsScript from './TicketsScript';
 export const cardData = [
 
 
+
   {
     id: 0,
-    title: 'BUY TICKETS',
-    image: '../upcoming/ED LAS BRNO ST (FILEminimizer).png',    
-    date: '2023-04-20',
-    url:'https://www.tickettailor.com/events/erasmusdreamland1/913743?',
-  },
-  {
-    id: 1,
     title: 'BUY TICKETS',
     image: '../upcoming/ED TBWEP BRA 11 SEPT ST (FILEminimizer).png',    
     date: '2023-04-20',
@@ -23,7 +17,7 @@ export const cardData = [
     script:"https://www.tickettailor.com/checkout/new-session/id/2072388/chk/006b/?ref=website_widget"
   },
   {
-    id: 2,
+    id: 1,
     title: 'BUY TICKETS',
     image: '../upcoming/ED TBWEP PRA 11 SEPT ST (FILEminimizer).png',    
     date: '2023-04-20',
@@ -31,7 +25,7 @@ export const cardData = [
     script:"https://www.tickettailor.com/checkout/new-session/id/2072402/chk/db0f/?ref=website_widget"
   },
   {
-    id: 3,
+    id: 2,
     title: 'BUY TICKETS',
     image: '../upcoming/ED TBWEP BRNO 12 SEPT ST (FILEminimizer).png',    
     date: '2023-04-20',
@@ -40,7 +34,7 @@ export const cardData = [
   },
 
   {
-    id: 4,
+    id: 3,
     title: 'BUY TICKETS',
     image: '../upcoming/ED TBWEP MIL 15 SEPT ST (FILEminimizer).png',    
     date: '2023-04-20',
@@ -48,7 +42,7 @@ export const cardData = [
     script:'https://www.tickettailor.com/checkout/new-session/id/2072405/chk/55c6/?ref=website_widget'
   },
   {
-    id: 5,
+    id: 4,
     title: 'BUY TICKETS',
     image: '../upcoming/mad.png',    
     date: '2023-04-20',
@@ -57,7 +51,7 @@ export const cardData = [
   },
 
   {
-    id: 6,
+    id: 5,
     title: 'BUY TICKETS',
     image: '../upcoming/ED TBWEP BRA 02 OCT ST (FILEminimizer).png',    
     date: '2023-04-20',

@@ -4,13 +4,7 @@ import { idR } from './CardEvents';
 import { useParams } from 'react-router-dom';
 import Footer from './Footer';
 const scriptData = [
-    {
-    party: "BRNO",
-    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
-    url2: "https://www.tickettailor.com/checkout/new-session/id/2363436/chk/9c85/?ref=website_widget",
-    url3: 'https://www.tickettailor.com/checkout/new-session/id/2363436/chk/9c85/?ref=website_widget',
-    image: "/banner-tickets/brno2.png"
-  },
+
   {
     party: "BRATISLAVA OPENING",
     url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
