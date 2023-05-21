@@ -8,11 +8,14 @@ import {
   FaArrowAltCircleRight
 } from 'react-icons/fa';
 
+import { useState, useRef, useEffect } from 'react';
+
 function ArtistSlider({ images }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [hoveredImageIndex, setHoveredImageIndex] = useState(-1);
   const [visibleImages, setVisibleImages] = useState(4);
   const logoRef = useRef(null);
+  const touchStartX = useRef(null);
 
   const handlePrevClick = () => {
     setCurrentImageIndex(Math.max(0, currentImageIndex - 1));
@@ -38,6 +41,21 @@ function ArtistSlider({ images }) {
     setHoveredImageIndex(-1);
   };
 
+  const handleTouchStart = (event) => {
+    touchStartX.current = event.touches[0].clientX;
+  };
+
+  const handleTouchMove = (event) => {
+    const touchCurrentX = event.touches[0].clientX;
+    const touchDeltaX = touchCurrentX - touchStartX.current;
+
+    if (touchDeltaX > 0) {
+      handlePrevClick();
+    } else if (touchDeltaX < 0) {
+      handleNextClick();
+    }
+  };
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
@@ -51,15 +69,15 @@ function ArtistSlider({ images }) {
 
     handleResize();
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
 
-    return () => window.removeEventListener("resize", handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, [currentImageIndex, images.length, visibleImages]);
 
   useEffect(() => {
     const logoHeight = logoRef.current ? logoRef.current.offsetHeight : 0;
     // Use the logoHeight value in CSS or perform any other logic based on the height value
-    console.log("Logo height:", logoHeight);
+    console.log('Logo height:', logoHeight);
   }, [logoRef.current]);
 
   return (
@@ -68,10 +86,14 @@ function ArtistSlider({ images }) {
       <p className="carousel-subtitle">
         Meet the DJs who will make you dance during the best year of your life.
       </p>
-      <div className="carousel-container">
+      <div
+        className="carousel-container"
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+      >
         {visibleImagesArray.map((image, index) => (
           <div
-            className={`carousel-img-container ${hoveredImageIndex === index ? "hovered" : ""}`}
+            className={`carousel-img-container ${hoveredImageIndex === index ? 'hovered' : ''}`}
             key={startImageIndex + index}
             onMouseEnter={() => handleImageHover(index)}
             onMouseLeave={handleImageLeave}
@@ -89,19 +111,20 @@ function ArtistSlider({ images }) {
                   <h3>{image.title}</h3>
                   <p>{image.description}</p>
                   <div className="artist-icons">
-                    <a href={image.inst}>&nbsp;<i className="fa fa-instagram" style={{ color: "yellow" }}></i></a>
-                    <a href={image.tiktok}>&nbsp;<i className="fab fa-tiktok" style={{ color: "yellow" }}></i></a>
+                    <a href={image.inst}>
+                      &nbsp;
+                      <i className="fa fa-instagram" style={{ color: 'yellow' }}></i>
+                    </a>
+                    <a href={image.tiktok}>
+                      &nbsp;
+                      <i className="fab fa-tiktok" style={{ color: 'yellow' }}></i>
+                    </a>
                   </div>
                 </div>
               )}
             </div>
             {image.logo && (
-              <img
-                className="artist-logo"
-                ref={logoRef}
-                src={image.logo}
-                alt={`${image.title} logo`}
-              />
+              <img className="artist-logo" ref={logoRef} src={image.logo} alt={`${image.title} logo`} />
             )}
           </div>
         ))}
@@ -116,7 +139,6 @@ function ArtistSlider({ images }) {
             <FaArrowAltCircleRight />
           </button>
         )}
-
       </div>
     </div>
   );
