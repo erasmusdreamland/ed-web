@@ -42,6 +42,13 @@ const scriptData = [
     image:"/banner-tickets/madrid.png"
   },
   {
+    party: "PARIS OPENING",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2072426/chk/26a8/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2072426/chk/26a8/?ref=website_widget',
+    image:"/banner-tickets/paris.png"
+  },
+  {
     party: "GREECE OPENING",
     url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
     url2: "https://www.tickettailor.com/checkout/new-session/id/2075146/chk/e353/?ref=website_widget",
