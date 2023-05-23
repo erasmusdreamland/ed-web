@@ -31,9 +31,17 @@ export const cardData = [
     url:'/tickets',
     script:"https://www.tickettailor.com/checkout/new-session/id/2075146/chk/e353/?ref=website_widget"
   },
-
   {
     id: 3,
+    title: 'BUY TICKETS',
+    image: '../upcoming/bolo.png',    
+    date: '2023-04-20',
+    url:'/tickets',
+    script:"https://www.tickettailor.com/checkout/new-session/id/2075146/chk/e353/?ref=website_widget"
+  },
+
+  {
+    id: 4,
     title: 'BUY TICKETS',
     image: '../upcoming/ED TBWEP MIL 15 SEPT ST (FILEminimizer).png',    
     date: '2023-04-20',
@@ -41,7 +49,7 @@ export const cardData = [
     script:'https://www.tickettailor.com/checkout/new-session/id/2072405/chk/55c6/?ref=website_widget'
   },
   {
-    id: 4,
+    id: 5,
     title: 'BUY TICKETS',
     image: '../upcoming/mad.png',    
     date: '2023-04-20',
@@ -49,7 +57,7 @@ export const cardData = [
     script:"https://www.tickettailor.com/checkout/new-session/id/2075146/chk/e353/?ref=website_widget"
   },
   {
-    id: 5,
+    id: 6,
     title: 'BUY TICKETS',
     image: '../upcoming/paris.png',    
     date: '2023-04-20',
@@ -59,7 +67,7 @@ export const cardData = [
 
 
   {
-    id: 6,
+    id: 7,
     title: 'BUY TICKETS',
     image: '../upcoming/ED TBWEP BRA 02 OCT ST (FILEminimizer).png',    
     date: '2023-04-20',

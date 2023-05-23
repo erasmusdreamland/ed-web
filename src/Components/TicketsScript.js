@@ -25,6 +25,13 @@ const scriptData = [
     url3: 'https://www.tickettailor.com/checkout/new-session/id/2072392/chk/ba44/?ref=website_widget',
     image:"/banner-tickets/brno-welcome.png"
   },
+  {
+    party: "BOLO OPENING",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2455063/chk/e148/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2455063/chk/e148/?ref=website_widget',
+    image:"/banner-tickets/boloH.png"
+  },
 
   {
     party: "MILAN OPENING",
