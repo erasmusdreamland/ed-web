@@ -9,6 +9,11 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/brno-tblef/',
+    imageFiles:require.context('../../public/brno-tblef', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST LAST ERASMUS PARTY | BRNO (CZECH REPUBLIC) | 20.05.23'
+  },
+  {
     imageFolder: '/ibiparty/',
     imageFiles:require.context('../../public/ibiparty', false, /\.(jpe?g|png|gif)$/),
     title: 'IBIZA PARTY | BRATISLAVA (SLOVAKIA) | 14.05.23'

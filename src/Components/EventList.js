@@ -7,7 +7,6 @@ import TicketsScript from './TicketsScript';
 export const cardData = [
 
 
-
   {
     id: 0,
     title: 'BUY TICKETS',
