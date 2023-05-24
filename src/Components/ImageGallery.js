@@ -9,6 +9,11 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/oscars-party/',
+    imageFiles:require.context('../../public/oscars-party', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE OSCARS PARTY | BRATISLAVA (SLOVAKIA) | 25.05.23'
+  },
+  {
     imageFolder: '/brno-tblef/',
     imageFiles:require.context('../../public/brno-tblef', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST LAST ERASMUS PARTY | BRNO (CZECH REPUBLIC) | 20.05.23'
@@ -73,6 +78,7 @@ const folderInfo = [
     imageFiles:require.context('../../public/alvama', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS FESTIVAL @ALVAMAICE'
   },
+
 
 ]
 
