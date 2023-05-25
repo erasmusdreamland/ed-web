@@ -60,6 +60,13 @@ const scriptData = [
     url2: "https://www.tickettailor.com/checkout/new-session/id/2075146/chk/e353/?ref=website_widget",
     url3: 'https://www.tickettailor.com/checkout/new-session/id/2075146/chk/e353/?ref=website_widget',
     image:"/banner-tickets/greece.png"
+  },
+  {
+    party: "KRA OPENING",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: 'https://www.tickettailor.com/checkout/new-session/id/2455063/chk/e148/?ref=website_widget',
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2455063/chk/e148/?ref=website_widget',
+    image:"/banner-tickets/kraH.png"
   }
 
 
