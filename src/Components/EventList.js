@@ -76,7 +76,7 @@ export const cardData = [
 
 
   {
-    id: 7,
+    id: 8,
     title: 'BUY TICKETS',
     image: '../upcoming/ED TBWEP BRA 02 OCT ST (FILEminimizer).png',    
     date: '2023-04-20',
