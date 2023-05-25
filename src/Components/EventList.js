@@ -72,9 +72,6 @@ export const cardData = [
     url:'/tickets',
     script:"https://www.tickettailor.com/checkout/new-session/id/2075146/chk/e353/?ref=website_widget"
   },
-  
-
-
   {
     id: 8,
     title: 'BUY TICKETS',
