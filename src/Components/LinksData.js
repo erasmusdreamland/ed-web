@@ -665,7 +665,7 @@ export const whatsappLinksInfo = [
             },
             {        
                 city: "Zwolle",        
-                whatsappLink: "https://chat.whatsapp.com/KRwp5l93xdlAygHh6ipuIU"      
+                whatsappLink: "https://chat.whatsapp.com/EY8DumcODBG4Ho0PcbRnzt"      
             } ,
             {        
                 city: "Groningen",        
