@@ -178,9 +178,15 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://chat.whatsapp.com/FaCamCn5RMK7f6oUNLHhGq"      
             },
             {        
+                city: "Lyngby",        
+                whatsappLink: "https://chat.whatsapp.com/EqXeztnTjc47n52rWVSj81"      
+            },       
+            {        
                 city: "Odense",        
                 whatsappLink: "https://chat.whatsapp.com/ECLQRWmJqgqHzUeQ11A2vv"      
-            },      
+            },     
+
+
         ]
     },
     {
