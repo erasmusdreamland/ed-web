@@ -5,6 +5,20 @@ import { useParams } from 'react-router-dom';
 import Footer from './Footer';
 const scriptData = [
   {
+    party: "LAST KLUB",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/1843817/chk/f77f/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/1843817/chk/f77f/?ref=website_widget',
+    image: "/banner-tickets/lastbH.png"
+  },
+  {
+    party: "PLAYA NO ESTA",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2481882/chk/eacd/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2481882/chk/eacd/?ref=website_widget',
+    image: "/banner-tickets/beachH.png"
+  },
+  {
     party: "BRATISLAVA OPENING",
     url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
     url2: "https://www.tickettailor.com/checkout/new-session/id/2072388/chk/006b/?ref=website_widget",
@@ -24,6 +38,13 @@ const scriptData = [
     url2: "https://www.tickettailor.com/checkout/new-session/id/2072392/chk/ba44/?ref=website_widget",
     url3: 'https://www.tickettailor.com/checkout/new-session/id/2072392/chk/ba44/?ref=website_widget',
     image:"/banner-tickets/brno-welcome.png"
+  },
+    {
+    party: "VIENA OPENING NO ESTA",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2072393/chk/1a85/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2072393/chk/1a85/?ref=website_widget',
+    image:"/banner-tickets/vieH.png"
   },
   {
     party: "BOLO OPENING",
@@ -61,12 +82,26 @@ const scriptData = [
     url3: 'https://www.tickettailor.com/checkout/new-session/id/2075146/chk/e353/?ref=website_widget',
     image:"/banner-tickets/greece.png"
   },
-  {
-    party: "KRA OPENING",
+    {
+    party: "WROCLAW NO ESTA OPENING",
     url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
-    url2: 'https://www.tickettailor.com/checkout/new-session/id/2455063/chk/e148/?ref=website_widget',
-    url3: 'https://www.tickettailor.com/checkout/new-session/id/2455063/chk/e148/?ref=website_widget',
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2075157/chk/c1d6/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2075157/chk/c1d6/?ref=website_widget',
+    image:"/banner-tickets/wroH.png"
+  },
+  {
+    party: "KRA OPENING NO ESTA",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: 'https://www.tickettailor.com/checkout/new-session/id/2481924/chk/eac6/?ref=website_widget',
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2481924/chk/eac6/?ref=website_widget',
     image:"/banner-tickets/kraH.png"
+  },
+    {
+    party: "LODZ NO ESTA OPENING",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: 'https://www.tickettailor.com/checkout/new-session/id/2075181/chk/2775/?ref=website_widget',
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2075181/chk/2775/?ref=website_widget',
+    image:"/banner-tickets/lodzH.png"
   }
 
 
