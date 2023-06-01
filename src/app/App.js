@@ -20,7 +20,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/events" element={<Events />} />
+        <Route path="/tickets" element={<Events />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
         <Route path="/gallery" element={<Gallery />} />

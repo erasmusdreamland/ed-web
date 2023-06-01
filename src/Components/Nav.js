@@ -29,7 +29,7 @@ function Nav() {
           </Link>
 
 
-          <Link to="/events" onClick={() => {closeNav(); Events();}}>
+          <Link to="/tickets" onClick={() => {closeNav(); Events();}}>
 TICKETS          </Link>
           <Link to="/gallery" onClick={() => {closeNav(); Gallery();}}>
             PHOTOS
