@@ -4,13 +4,7 @@ import { idR } from './CardEvents';
 import { useParams } from 'react-router-dom';
 import Footer from './Footer';
 const scriptData = [
-  {
-    party: "LAST KLUB",
-    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
-    url2: "https://www.tickettailor.com/checkout/new-session/id/1843817/chk/f77f/?ref=website_widget",
-    url3: 'https://www.tickettailor.com/checkout/new-session/id/1843817/chk/f77f/?ref=website_widget',
-    image: "/banner-tickets/lastbH.png"
-  },
+
   {
     party: "PLAYA NO ESTA",
     url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
