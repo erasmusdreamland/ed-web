@@ -7,14 +7,7 @@ import TicketsScript from './TicketsScript';
 export const cardData = [
 
   
-  {
-    id: 0,
-    title: 'BUY TICKETS',
-    image: '../upcoming/beach.png',    
-    date: '2023-04-20',
-    url:'/tickets',
-    script:"https://www.tickettailor.com/checkout/new-session/id/2072402/chk/db0f/?ref=website_widget"
-  },
+
   {
     id: 1,
     title: 'BUY TICKETS',
