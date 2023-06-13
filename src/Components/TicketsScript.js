@@ -5,13 +5,6 @@ import { useParams } from 'react-router-dom';
 import Footer from './Footer';
 const scriptData = [
   {
-    party: "LAST KLUB",
-    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
-    url2: "https://www.tickettailor.com/checkout/new-session/id/1843817/chk/f77f/?ref=website_widget",
-    url3: 'https://www.tickettailor.com/checkout/new-session/id/1843817/chk/f77f/?ref=website_widget',
-    image: "/banner-tickets/lastbH.png"
-  },
-  {
     party: "PLAYA NO ESTA",
     url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
     url2: "https://www.tickettailor.com/checkout/new-session/id/2481882/chk/eacd/?ref=website_widget",
@@ -47,11 +40,32 @@ const scriptData = [
     image:"/banner-tickets/vieH.png"
   },
   {
+    party: "GRAN CANARIA",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2072393/chk/1a85/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2072393/chk/1a85/?ref=website_widget',
+    image:"/banner-tickets/granH.png"
+  },
+  {
+    party: "PORTO OPENING",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2672426/chk/38b5/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2672426/chk/38b5/?ref=website_widget',
+    image:"/banner-tickets/portoH.png"
+  },
+  {
     party: "BOLO OPENING",
     url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
     url2: "https://www.tickettailor.com/checkout/new-session/id/2455063/chk/e148/?ref=website_widget",
     url3: 'https://www.tickettailor.com/checkout/new-session/id/2455063/chk/e148/?ref=website_widget',
     image:"/banner-tickets/boloH.png"
+  },
+  {
+    party: "BRUSSLES",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2072404/chk/a465/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2072404/chk/a465/?ref=website_widget',
+    image:"/banner-tickets/bruH.png"
   },
 
   {
@@ -60,6 +74,13 @@ const scriptData = [
     url2: "https://www.tickettailor.com/checkout/new-session/id/2072405/chk/55c6/?ref=website_widget",
     url3: 'https://www.tickettailor.com/checkout/new-session/id/2072405/chk/55c6/?ref=website_widget',
     image:"/banner-tickets/milan.png"
+  },
+  {
+    party: "BUDAPEST",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2672419/chk/f494/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2672419/chk/f494/?ref=website_widget',
+    image:"/banner-tickets/budaH.png"
   },
   {
     party: "MADRID OPENING",
@@ -74,6 +95,13 @@ const scriptData = [
     url2: "https://www.tickettailor.com/checkout/new-session/id/2072426/chk/26a8/?ref=website_widget",
     url3: 'https://www.tickettailor.com/checkout/new-session/id/2072426/chk/26a8/?ref=website_widget',
     image:"/banner-tickets/paris.png"
+  },
+  {
+    party: "LJUBLJANA",
+    url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2072426/chk/26a8/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2072426/chk/26a8/?ref=website_widget',
+    image:"/banner-tickets/ljubljianaH.png"
   },
   {
     party: "GREECE OPENING",
