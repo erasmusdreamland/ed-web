@@ -36,8 +36,8 @@ const scriptData = [
   {
     party: "GRAN CANARIA",
     url1: "https://cdn.tickettailor.com/js/widgets/min/widget.js",
-    url2: "https://www.tickettailor.com/checkout/new-session/id/2072393/chk/1a85/?ref=website_widget",
-    url3: 'https://www.tickettailor.com/checkout/new-session/id/2072393/chk/1a85/?ref=website_widget',
+    url2: "https://www.tickettailor.com/checkout/new-session/id/2072396/chk/e571/?ref=website_widget",
+    url3: 'https://www.tickettailor.com/checkout/new-session/id/2072396/chk/e571/?ref=website_widget',
     image:"/banner-tickets/granH.png"
   },
   {
