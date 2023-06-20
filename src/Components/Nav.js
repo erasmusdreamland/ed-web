@@ -41,6 +41,8 @@ TICKETS          </Link>
             <div className="dropdown-content">
               <a href="https://www.instagram.com/erasmusdreamland/?hl=es">INSTAGRAM <i className="fa fa-instagram"></i></a>
               <a href="https://www.facebook.com/erasmusdreamland/" >FACEBOOK <i className="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/erasmusdreamlan" >TWITTER <i className="fa fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/company/erasmus-dreamland/" >LINKEDIN <i className="fa fa-linkedin"></i></a>
               <a href="https://www.tiktok.com/@erasmusdreamland">TIKTOK  <i class="fab fa-tiktok"></i></a>
             </div>
             

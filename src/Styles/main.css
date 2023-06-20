@@ -11,7 +11,7 @@
 
 
 :root {
-	--mainColor: #565656;
+	--mainColor: #737373;
 	--mainColorLight: #5767aa;
 	--secondaryColor: #eff31a;
 	--textColor: #eee;
@@ -106,10 +106,10 @@ nav {
 }
 
 .nav-item {
-	color: #ffff00;
+	color: #fcf82d;
 }
 .nav-item-2 {
-	color: #eff31a;
+	color: #fcf82d;
 	}
 
 .nav-item:hover {
@@ -123,7 +123,7 @@ color: white;
 	position: absolute;
 	z-index: 1;
 	width: 200px;
-	top: 10rem;
+	top: 13rem;
 	left: 50%;
 	transform: translateX(-50%);
   }
@@ -339,7 +339,7 @@ width: 100%;
 	font-weight: bold;
 	padding: 10px;
 	border-radius: 5px;
-	background-color: #ffff00;
+	background-color: #fcf82d;
 	
 	font-weight: bold;
 	
@@ -534,7 +534,7 @@ top: 10rem;
   .card h3 {
 	font-size: 20px;
 	border-radius:10px;
-	background-color: #ffff00;
+	background-color: #fcf82d;
 	text-align: center;
 	padding: 5px 10px;
 	color: #000;
@@ -699,7 +699,7 @@ background-color: #2d2d2d;
 text-align: center;
 font-weight: bold;
 padding: 20px;
-background-color: #ffff00;}
+background-color: #fcf82d;}
 
 
 
@@ -879,7 +879,7 @@ font-size: 1.2rem;
 }
 
 .title__whatsapp {
-background-color: #ffff00;
+background-color: #fcf82d;
 color: "#fff";
 font-size: 2rem;
 text-align: center;
@@ -1105,7 +1105,7 @@ font-weight: bold;
 
 
   .footer {
-	background-color: #565656;
+	background-color: #737373;
 	padding: 20px;
 	margin-top: 100px;
 	display: flex;
