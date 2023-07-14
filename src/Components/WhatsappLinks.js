@@ -14,7 +14,7 @@ const WhatsappButtons = () => {
   
     return (
       <div>
-        <h1 className="title__whatsapp">Check your city group here!</h1>
+        <h1 className="title__whatsapp">CHECK YOUR CITY GROUP HERE!</h1>
         <div className="whatsapp-buttons">
           {countryData.data.map((cityData, index) => (
             <a href={cityData.whatsappLink} key={index}>
