@@ -29,8 +29,9 @@ function Nav() {
           </Link>
 
 
-          <Link to="/tickets" onClick={() => {closeNav(); Events();}}>
-TICKETS          </Link>
+          <Link to="" onClick={() => { closeNav(); window.location.href = 'https://www.tickettailor.com/events/erasmusdreamland1/'; }}>
+  TICKETS
+</Link>
           <Link to="/gallery" onClick={() => {closeNav(); Gallery();}}>
             PHOTOS
           </Link>

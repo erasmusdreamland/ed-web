@@ -25,7 +25,7 @@ export const cardData = [
   },
   {
     id: 2,
-    title: 'BUY TICKETS',
+    title: 'CKETS',
     image: '../upcoming/ED TBWEP BRNO 12 SEPT ST (FILEminimizer).png',    
     date: '2023-04-20',
     url:'/tickets',
