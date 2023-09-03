@@ -9,14 +9,14 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
-    imageFolder: '/berguen/',
-    imageFiles:require.context('../../public/berguen', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BERGUEN (NORWAY) | 01.09.23'
+    imageFolder: '/bergen/',
+    imageFiles:require.context('../../public/bergen', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BERGEN (NORWAY) | 01.09.23'
   },
   {
-    imageFolder: '/copenhaguen/',
-    imageFiles:require.context('../../public/copenhaguen', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS WELCOME PARTY | COPENHAGUEN (DENMARK) | 31.08.23'
+    imageFolder: '/copenhagen/',
+    imageFiles:require.context('../../public/copenhagen', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | COPENHAGEN (DENMARK) | 31.08.23'
   },
   {
     imageFolder: '/tbef-beach/',

@@ -96,15 +96,15 @@ export const cardData = [
   },
   {
     id: 1,
-    title: 'The Biggest Erasmus Welcome Party | Copenhaguen 31.08.2023 ',
+    title: 'The Biggest Erasmus Welcome Party | Copenhagen 31.08.2023 ',
     image: '/thumnails-gallery/copen.jpg',
-    linkUrl: "/copenhaguen",
+    linkUrl: "/copenhagen",
   },
   {
     id: 0,
-    title: 'The Biggest Erasmus Welcome Party | Berguen 01.09.2023 ',
+    title: 'The Biggest Erasmus Welcome Party | Bergen 01.09.2023 ',
     image: '/thumnails-gallery/berguen.jpg',
-    linkUrl: "/berguen",
+    linkUrl: "/bergen",
   },
 
 
