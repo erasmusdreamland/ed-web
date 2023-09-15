@@ -9,6 +9,16 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/welcome-bologna/',
+    imageFiles:require.context('../../public/welcome-bologna', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BOLOGNA (ITALY) | 14.09.23'
+  },
+  {
+    imageFolder: '/traffic-light-bratislava/',
+    imageFiles:require.context('../../public/traffic-light-bratislava', false, /\.(jpe?g|png|gif)$/),
+    title: 'TRAFFIC LIGHT PARTY | BRATISLAVA (SLOVAKIA) | 13.09.23'
+  },
+  {
     imageFolder: '/welcome-viena/',
     imageFiles:require.context('../../public/welcome-viena', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS WELCOME PARTY | VIENA (AUSTRIA) | 12.09.23'
