@@ -10,7 +10,7 @@ import { idCard } from './Card';
 const folderInfo = [
   {
     imageFolder: '/welcome-brussels/',
-    imageFiles:require.context('../../public/welcome-brussels', false, /\.(jpe?g|png|gif)$/),
+    imageFiles:require.context('../../public/welcome-bologna', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS WELCOME PARTY | BRUSSELS (BELGIUM) | 14.09.23'
   },
   {
