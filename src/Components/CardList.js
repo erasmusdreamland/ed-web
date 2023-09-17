@@ -136,7 +136,7 @@ export const cardData = [
     image: '/thumnails-gallery/welcome-brussels.jpg',
     linkUrl: "/welcome-brussels",
   },
-
+    
 
 
 ];
