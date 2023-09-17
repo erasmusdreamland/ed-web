@@ -20,7 +20,7 @@ export const cardData = [
     id: 19,
     title: 'The Biggest Erasmus Festival | Porto  20.04.2023 ',
     image: '/thumnails-gallery/IMG_0338 (FILEminimizer).jpg',
-    linkUrl: "/porto-tbef",
+    linkUrl: "/porto-tbef",   
   },
   {
     id: 18,
