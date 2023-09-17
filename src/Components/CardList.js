@@ -134,7 +134,7 @@ export const cardData = [
     id: 0,
     title: 'The Biggest Erasmus Welcome Party | Brussels 14.09.2023 ',
     image: '/thumnails-gallery/welcome-brussels.jpg',
-    linkUrl: "/welcome-brussels",
+    linkUrl: "/welcome-brussels-be",
   },
     
 
