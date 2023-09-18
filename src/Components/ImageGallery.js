@@ -9,6 +9,11 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/welcome-laspalmas/',
+    imageFiles:require.context('../../public/welcome-laspalmas', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | LAS PALMAS DE GRAN CANARIA (SPAIN) | 13.09.23'
+  },
+  {
     imageFolder: '/welcome-brussels-be/',
     imageFiles:require.context('../../public/welcome-brussels-be', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS WELCOME PARTY | BRUSSELS (BELGIUM) | 14.09.23'
