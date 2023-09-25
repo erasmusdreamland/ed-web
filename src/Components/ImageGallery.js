@@ -9,66 +9,71 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/welcome-naples/',
+    imageFiles:require.context('../../public/welcome-naples', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | NAPLES (ITALY) | 21/09/23'
+  },
+  {
     imageFolder: '/welcome-paris/',
     imageFiles:require.context('../../public/welcome-paris', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS WELCOME PARTY | PARIS (FRANCE) | 20.09.23'
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | PARIS (FRANCE) | 20/09/23'
   },
   {
     imageFolder: '/aniversary-bratislava/',
     imageFiles:require.context('../../public/aniversary-bratislava', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST 3RD ANIVERSARY PARTY | BRATISLAVA (SLOVAKIA) | 18.09.23'
+    title: 'THE BIGGEST 3RD ANIVERSARY PARTY | BRATISLAVA (SLOVAKIA) | 18/09/23'
   },
   {
     imageFolder: '/welcome-budapest/',
     imageFiles:require.context('../../public/welcome-budapest', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BUDAPEST (HUNGARY) | 16.09.23'
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BUDAPEST (HUNGARY) | 16/09/23'
   },
   {
     imageFolder: '/welcome-milan/',
     imageFiles:require.context('../../public/welcome-milan', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS WELCOME PARTY | MILAN (ITALY) | 15.09.23'
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | MILAN (ITALY) | 15/09/23'
   },
 
   {
     imageFolder: '/welcome-brussels-be/',
     imageFiles:require.context('../../public/welcome-brussels-be', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BRUSSELS (BELGIUM) | 14.09.23'
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BRUSSELS (BELGIUM) | 14/09/23'
   },
   {
     imageFolder: '/welcome-bologna/',
     imageFiles:require.context('../../public/welcome-bologna', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BOLOGNA (ITALY) | 14.09.23'
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BOLOGNA (ITALY) | 14/09/23'
   },
   {
     imageFolder: '/welcome-laspalmas/',
     imageFiles:require.context('../../public/welcome-laspalmas', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS WELCOME PARTY | LAS PALMAS DE GRAN CANARIA (SPAIN) | 13.09.23'
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | LAS PALMAS DE GRAN CANARIA (SPAIN) | 13/09/23'
   },
   {
     imageFolder: '/traffic-light-bratislava/',
     imageFiles:require.context('../../public/traffic-light-bratislava', false, /\.(jpe?g|png|gif)$/),
-    title: 'TRAFFIC LIGHT PARTY | BRATISLAVA (SLOVAKIA) | 13.09.23'
+    title: 'TRAFFIC LIGHT PARTY | BRATISLAVA (SLOVAKIA) | 13/09/23'
   },
   {
     imageFolder: '/welcome-viena/',
     imageFiles:require.context('../../public/welcome-viena', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS WELCOME PARTY | VIENA (AUSTRIA) | 12.09.23'
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | VIENA (AUSTRIA) | 12/09/23'
   },
   {
     imageFolder: '/welcome-bratislava/',
     imageFiles:require.context('../../public/welcome-bratislava', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BRATISLAVA (SLOVAKIA) | 11.09.23'
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BRATISLAVA (SLOVAKIA) | 11/09/23'
   },
   
   {
     imageFolder: '/bergen/',
     imageFiles:require.context('../../public/bergen', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BERGEN (NORWAY) | 01.09.23'
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BERGEN (NORWAY) | 01/09/23'
   },
   {
     imageFolder: '/copenhagen/',
     imageFiles:require.context('../../public/copenhagen', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS WELCOME PARTY | COPENHAGEN (DENMARK) | 31.08.23'
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | COPENHAGEN (DENMARK) | 31/08/23'
   },
   {
     imageFolder: '/tbef-beach/',
