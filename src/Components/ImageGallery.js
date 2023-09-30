@@ -9,6 +9,16 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/carnival-bratislava/',
+    imageFiles:require.context('../../public/carnival-bratislava', false, /\.(jpe?g|png|gif)$/),
+    title: 'CARNIVAL PARTY | BRATISLAVA (SLOVAKIA) | 28/09/23'
+  },
+  {
+    imageFolder: '/aniversary-brno/',
+    imageFiles:require.context('../../public/aniversary-brno', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST 3RD ANIVERSARY PARTY | BRNO (CZECH REPUBLIC) | 26/09/23'
+  },
+  {
     imageFolder: '/welcome-naples/',
     imageFiles:require.context('../../public/welcome-naples', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS WELCOME PARTY | NAPLES (ITALY) | 21/09/23'
