@@ -9,6 +9,11 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/welcome-krakow/',
+    imageFiles:require.context('../../public/welcome-krakow', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | KRAKOW (POLAND) | 03/10/23'
+  },
+  {
     imageFolder: '/welcome-wroclaw/',
     imageFiles:require.context('../../public/welcome-wroclaw', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS WELCOME PARTY | WROCLAW (POLAND) | 03/10/23'
