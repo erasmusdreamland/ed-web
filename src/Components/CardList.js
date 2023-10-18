@@ -212,7 +212,7 @@ export const cardData = [
   {
     id: 0,
     title: 'The Biggest Erasmus Festival | Bratislava 14/10/23 ',
-    image: '/thumnails-gallery/tbef-bratislava.jpg',
+    image: '/thumnails-gallery/tbef.jpg',
     linkUrl: "/tbef-bratislava",
   },
   
