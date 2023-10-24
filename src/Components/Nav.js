@@ -29,7 +29,7 @@ function Nav() {
           </Link>
 
 
-          <Link to="" onClick={() => { closeNav(); window.location.href = 'https://www.tickettailor.com/events/erasmusdreamland1/'; }}>
+          <Link to="" onClick={() => { closeNav(); window.location.href = 'https://www.fourvenues.com/es/erasmus-dreamland1'; }}>
   TICKETS
 </Link>
           <Link to="/gallery" onClick={() => {closeNav(); Gallery();}}>
