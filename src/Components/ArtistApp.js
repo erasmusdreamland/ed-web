@@ -21,6 +21,33 @@ const images = [
   
       },
       {
+        src: "../artists/aissa (FILEminimizer).jpg",
+        title: "Aissa",
+        description: "With his biggest hit, 'Las Bratz', Aissa is a singer from Morocco who is about to reach the top of the urban genre.",
+        inst:"https://www.instagram.com/aissa.aslani/",
+        tiktok:"https://www.tiktok.com/@aissa.aslanni",
+        logo:"../artists/aissalogo.png"
+  
+      },
+      {
+        src: "../artists/barce (FILEminimizer).jpg",
+        title: "Barce",
+        description: "At just 24 years old, he is one of the most sought-after DJs in Spain. The self-styled 'Pájaro' is ready to fly with us all over Europe.",
+        inst:"https://www.instagram.com/jorgebarcenas_/",
+        tiktok:"https://www.tiktok.com/@jorgebarcenas_",
+        logo:"../artists/barcelogo.png"
+  
+      },
+      {
+        src: "../artists/cremades (FILEminimizer).jpg",
+        title: "Jorge Cremades",
+        description: "With more than 3M followers on social media, Jorge Cremades is a well-known Instagramer, who has now made the leap to a career as a DJ. Pure energy and fun",
+        inst:"https://www.instagram.com/jorgescremades/",
+        tiktok:"https://www.tiktok.com/@jorgescremades",
+        logo:"../artists/cremadeslogo.png"
+  
+      },
+      {
         src: "../artists/vybs (FILEminimizer).png",
         title: "Vybs",
         description: "With more than 400k followers on TikTok thanks to his absolutely macabre humour videos, Vybs presents his new facet as a DJ, so that all future Erasmus students can dance to the rhythm of his madness.",
