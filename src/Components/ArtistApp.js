@@ -66,9 +66,9 @@ const images = [
 
     },
     {
-      src: "../artists/seaquake (FILEminimizer).jpg",
+      src: "../artists/seaquake2 (FILEminimizer).jpg",
       title: "Seaquake",
-      description: "Our resident DJ, with more than 7 years in the sector, characterised by mixing the urban genre with the hardest genres of music. Closures are his thing. Stay until the end, because that's when the absolute madness will be unleashed!",
+      description: "Characterised by mixing the urban genre with the hardest genres of music, he will make you get crazy with his live show 'THE HARDEST URBAN SHOW'. Closures are his thing. Stay until the end, because that's when the absolute madness will be unleashed!",
       inst:"https://www.instagram.com/iamseaquake/",
       tiktok:"https://www.tiktok.com/@iamseaquake",
       logo:"../artists/seaquakelogo.png"
