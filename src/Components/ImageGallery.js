@@ -8,10 +8,16 @@ import { idCard } from './Card';
 
 
 const folderInfo = [
+
   {
     imageFolder: '/tbef-bratislava/',
     imageFiles:require.context('../../public/tbef-bratislava', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS FESTIVAL | BRATISLAVA (SLOVAKIA) | 14/10/23'
+  },
+  {
+    imageFolder: '/tbef-brussels/',
+    imageFiles:require.context('../../public/tbef-brussels', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS FESTIVAL | BRUSSELS (BELGIUM) | 12/10/23'
   },
   {
     imageFolder: '/welcome-warsaw/',
