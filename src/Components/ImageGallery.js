@@ -8,6 +8,11 @@ import { idCard } from './Card';
 
 
 const folderInfo = [
+  {
+    imageFolder: '/halloween-krakow/',
+    imageFiles:require.context('../../public/halloween-krakow', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS FESTIVAL | KRAKOW (POLAND) | 27/10/23'
+  },
 
   {
     imageFolder: '/tbef-bratislava/',
