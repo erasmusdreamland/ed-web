@@ -11,7 +11,7 @@
 
 
 :root {
-	--mainColor: #737373;
+	--mainColor: #949494;
 	--mainColorLight: #5767aa;
 	--secondaryColor: #eff31a;
 	--textColor: #eee;
@@ -1105,7 +1105,7 @@ font-weight: bold;
 
 
   .footer {
-	background-color: #737373;
+	background-color: #949494;
 	padding: 20px;
 	margin-top: 100px;
 	display: flex;
