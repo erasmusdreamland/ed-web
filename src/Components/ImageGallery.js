@@ -14,6 +14,11 @@ const folderInfo = [
     title: 'THE BIGGEST ERASMUS FESTIVAL | KRAKOW (POLAND) | 27/10/23'
   },
   {
+    imageFolder: '/ibiza-party/',
+    imageFiles:require.context('../../public/ibiza-party', false, /\.(jpe?g|png|gif)$/),
+    title: 'IBIZA PARTY | BRATISLAVA (SLOVAKIA) | 26/10/23'
+  },
+  {
     imageFolder: '/halloween-bolonia/',
     imageFiles:require.context('../../public/halloween-bolonia', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS FESTIVAL | BOLOGNA (ITALY) | 25/10/23'
