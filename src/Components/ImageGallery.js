@@ -9,9 +9,19 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/halloween-brno/',
+    imageFiles:require.context('../../public/halloween-brno', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS HALLOWEEN FESTIVAL | BRNO (CZECH REPUBLIC) | 31/10/23'
+  },
+  {
+    imageFolder: '/halloween-bratislava/',
+    imageFiles:require.context('../../public/halloween-bratislava', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS HALLOWEEN FESTIVAL | BRATISLAVA (SLOVAKIA) | 30/10/23'
+  },
+  {
     imageFolder: '/halloween-krakow/',
     imageFiles:require.context('../../public/halloween-krakow', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS FESTIVAL | KRAKOW (POLAND) | 27/10/23'
+    title: 'THE BIGGEST ERASMUS HALLOWEEN FESTIVAL | KRAKOW (POLAND) | 27/10/23'
   },
   {
     imageFolder: '/ibiza-party/',
@@ -21,7 +31,7 @@ const folderInfo = [
   {
     imageFolder: '/halloween-bolonia/',
     imageFiles:require.context('../../public/halloween-bolonia', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS FESTIVAL | BOLOGNA (ITALY) | 25/10/23'
+    title: 'THE BIGGEST ERASMUS HALLOWEEN FESTIVAL | BOLOGNA (ITALY) | 25/10/23'
   },
 
   {
