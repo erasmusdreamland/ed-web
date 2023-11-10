@@ -9,6 +9,11 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/feid-afterparty/',
+    imageFiles:require.context('../../public/feid-afterparty', false, /\.(jpe?g|png|gif)$/),
+    title: 'FEID AFTER PARTY | MILAN (ITALY) | 06/11/23'
+  },
+  {
     imageFolder: '/halloween-brno/',
     imageFiles:require.context('../../public/halloween-brno', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS HALLOWEEN FESTIVAL | BRNO (CZECH REPUBLIC) | 31/10/23'
