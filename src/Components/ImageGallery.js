@@ -11,7 +11,12 @@ const folderInfo = [
   {
     imageFolder: '/barce-krakow/',
     imageFiles:require.context('../../public/barce-krakow', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS FESTIVAL WITH BARCE (KRAKOW | POLAND) | KRAKOW (POLAND) | 07/12/23'
+    title: 'THE BIGGEST ERASMUS FESTIVAL WITH BARCE | KRAKOW (POLAND) | 07/12/23'
+  },
+  {
+    imageFolder: '/barce-rome/',
+    imageFiles:require.context('../../public/barce-rome', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS FESTIVAL WITH BARCE | ROME (ITALY) | 06/12/23'
   },
   {
     imageFolder: '/feid-afterparty/',
