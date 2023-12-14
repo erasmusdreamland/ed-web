@@ -9,6 +9,11 @@ import { idCard } from './Card';
 
 const folderInfo = [
   {
+    imageFolder: '/barce-krakow/',
+    imageFiles:require.context('../../public/barce-krakow', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS FESTIVAL WITH BARCE (KRAKOW | POLAND) | KRAKOW (POLAND) | 07/12/23'
+  },
+  {
     imageFolder: '/feid-afterparty/',
     imageFiles:require.context('../../public/feid-afterparty', false, /\.(jpe?g|png|gif)$/),
     title: 'FEID AFTER PARTY | MILAN (ITALY) | 06/11/23'

@@ -168,6 +168,13 @@ export const cardData = [
     image: '/thumnails-gallery/feid-afterparty.jpg',
     linkUrl: "/feid-afterparty",
   },
+  {
+    id: 0,
+    title: 'The Biggest Erasmus Festival with Barce | Krakow 07/12/23 ',
+    image: '/thumnails-gallery/barce-krakow.jpg',
+    linkUrl: "/barce-krakow",
+  },
+
 
 
   
