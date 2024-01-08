@@ -66,7 +66,7 @@ const images = [
 
     },
     {
-      src: "../artists/seaquake2 (FILEminimizer).jpg",
+      src: "../artists/seaquake (FILEminimizer).jpg",
       title: "Seaquake",
       description: "Characterised by mixing the urban genre with the hardest genres of music, he will make you get crazy with his live show 'THE HARDEST URBAN SHOW'. Closures are his thing. Stay until the end, because that's when the absolute madness will be unleashed!",
       inst:"https://www.instagram.com/iamseaquake/",
