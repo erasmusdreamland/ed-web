@@ -421,6 +421,10 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://t.co/UavCsFQJlX"      
             },
             {        
+                city: "Dusseldorf",        
+                whatsappLink: "https://t.co/XqUzabXwWg"      
+            },
+            {        
                 city: "Essen",        
                 whatsappLink: "https://t.co/0lvq0TQNlb"      
             },

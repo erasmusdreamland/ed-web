@@ -50,7 +50,7 @@ function Nav() {
           </div>
 
           <Link to="/whatsapp-groups" onClick={() => {closeNav(); CountriesGallery();}} className="nav-item">
-           WHATSAPP GROUPS
+           WHATSAPP GROUPS 24/25
           </Link>
 
 
