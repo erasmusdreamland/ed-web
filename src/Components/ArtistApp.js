@@ -5,7 +5,7 @@ const images = [
     {
       src: "../artists/alvama (FILEminimizer).png",
       title: "Alvama Ice",
-      description: "The Madrid-born artist became known after uploading his sessions to social networks during the confinement, reaching a million followers on TikTok and being known since then for his own remixes and mashups, with hip hop, trap or reggaeton beats.",
+      description: "El madrileño se dio a conocer tras subir sus sesiones a las redes sociales durante el confinamiento, alcanzando el millón de seguidores en TikTok y siendo conocido desde entonces por sus propios remixes y mashups, con ritmos de hip hop, trap o reggaeton.",
       inst:"https://www.instagram.com/alvama_ice/",
       tiktok:"https://www.tiktok.com/@alvama_ice",
       logo:"../artists/alvamalogo.png"
@@ -14,7 +14,7 @@ const images = [
     {
         src: "../artists/martini (FILEminimizer).png",
         title: "Alex Martini",
-        description: "Spanish DJ and music producer known for his mashups and his hit 'Dime Bebesita', which has accumulated more than 38 million plays. Resident DJ at Shoko Madrid, with more than 500,000 followers on social media.",
+        description: "DJ y productor musical español conocido por sus mashups y su éxito 'Dime Bebesita', que acumula más de 38 millones de reproducciones. DJ residente en Shoko Madrid, con más de 500.000 seguidores en las redes sociales.",
         inst:"https://www.instagram.com/yoalexmartini/",
         tiktok:"https://www.tiktok.com/@alexmartini",
         logo:"../artists/martinilogo.png"
@@ -23,7 +23,7 @@ const images = [
       {
         src: "../artists/aissa (FILEminimizer).jpg",
         title: "Aissa",
-        description: "With his biggest hit, 'Las Bratz', Aissa is a singer from Morocco who is about to reach the top of the urban genre.",
+        description: "Con su mayor éxito, 'Las Bratz', Aissa es una cantante marroquí que está a punto de alcanzar la cima del género urbano.",
         inst:"https://www.instagram.com/aissa.aslani/",
         tiktok:"https://www.tiktok.com/@aissa.aslanni",
         logo:"../artists/aissalogo.png"
@@ -32,7 +32,7 @@ const images = [
       {
         src: "../artists/barce (FILEminimizer).jpg",
         title: "Barce",
-        description: "At just 24 years old, he is one of the most sought-after DJs in Spain. The self-styled 'Pájaro' is ready to fly with us all over Europe.",
+        description: "Con sólo 24 años, es uno de los DJ más solicitados de España. El autodenominado 'Pájaro' está listo para volar con nosotros por toda Europa.",
         inst:"https://www.instagram.com/jorgebarcenas_/",
         tiktok:"https://www.tiktok.com/@jorgebarcenas_",
         logo:"../artists/barcelogo.png"
@@ -41,7 +41,7 @@ const images = [
       {
         src: "../artists/cremades (FILEminimizer).jpg",
         title: "Jorge Cremades",
-        description: "With more than 3M followers on social media, Jorge Cremades is a well-known Instagramer, who has now made the leap to a career as a DJ. Pure energy and fun",
+        description: "Con más de 3M de seguidores en las redes sociales, Jorge Cremades es un conocido Instagramer, que ahora ha dado el salto a su carrera como DJ. Pura energía y diversión",
         inst:"https://www.instagram.com/jorgescremades/",
         tiktok:"https://www.tiktok.com/@jorgescremades",
         logo:"../artists/cremadeslogo.png"
@@ -59,7 +59,7 @@ const images = [
     {
       src: "../artists/alvarez (FILEminimizer).png",
       title: "Álvarez",
-      description: "DJ and music producer, characterised by his energetic and versatile sets, playing both urban and electronic styles. This new addition gives Erasmus Dreamland an unique artist who has broken the urban music scene during his Erasmus stay in Krakow.",
+      description: "DJ y productor musical, caracterizado por sus sets enérgicos y versátiles, pinchando tanto estilos urbanos como electrónicos. Con esta nueva incorporación, Erasmus Dreamland cuenta con un artista único que ha roto la escena de la música urbana durante su estancia Erasmus en Cracovia.",
       inst:"",
       tiktok:"",
       logo:"../artists/alvarezlogo.png"
@@ -68,7 +68,7 @@ const images = [
     {
       src: "../artists/seaquake (FILEminimizer).jpg",
       title: "Seaquake",
-      description: "Characterised by mixing the urban genre with the hardest genres of music, he will make you get crazy with his live show 'THE HARDEST URBAN SHOW'. Closures are his thing. Stay until the end, because that's when the absolute madness will be unleashed!",
+      description: "Caracterizado por mezclar el género urbano con los géneros más duros de la música, te hará enloquecer con su directo 'THE HARDEST URBAN SHOW'. Lo suyo son los cierres. Quédate hasta el final, ¡porque será entonces cuando se desate la locura más absoluta!",
       inst:"https://www.instagram.com/iamseaquake/",
       tiktok:"https://www.tiktok.com/@iamseaquake",
       logo:"../artists/seaquakelogo.png"

@@ -38,19 +38,19 @@ export const whatsappLinksInfo = [
         country: "Belgium",
         data: [      
             {        
-                city: "Antwerp",        
+                city: "Amberes",        
                 whatsappLink: "https://t.co/gKnR2Ul6Lm"      
             },
             {        
-                city: "Brussels",        
+                city: "Bruselas",        
                 whatsappLink: "https://t.co/3HlIQ7slEo"      
             },      
             {        
-                city: "Bruges",        
+                city: "Brujas",        
                 whatsappLink: "https://t.co/I8ksLa46nJ"      
             },
             {        
-                city: "Ghent",        
+                city: "Gante",        
                 whatsappLink: "https://t.co/hNkf1QKwsZ"      
             },
             {        
@@ -62,15 +62,15 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://t.co/e1tsyDGs0y"      
             },
             {        
-                city: "Liège",        
+                city: "Lieja",        
                 whatsappLink: "https://t.co/TjhcXSz7kh"      
             },
             {        
-                city: "Leuven",        
+                city: "Lovaina",        
                 whatsappLink: "https://t.co/ixBkyOniis"      
             },
             {        
-                city: "Mechelen",        
+                city: "Malinas",        
                 whatsappLink: "https://t.co/EuESes0O2T"      
             },
             {        
@@ -139,7 +139,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Cyprus",
+        country: "Chipre",
         data: [      
             {        
                 city: "Nicosia",        
@@ -152,7 +152,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Czech Republic",
+        country: "República Checa",
         data: [      
             {        
                 city: "Brno",        
@@ -187,7 +187,7 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://t.co/CxSXPvjJ73"      
             },   
             {        
-                city: "Prague",        
+                city: "Praga",        
                 whatsappLink: "https://t.co/iV5mRstieN"      
             },      
             {        
@@ -206,7 +206,7 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://t.co/0BpEgpD086"      
             },
             {        
-                city: "Copenhagen",        
+                city: "Copenhague",        
                 whatsappLink: "https://t.co/sFiYF7Z0CP"      
             },
             {        
@@ -230,7 +230,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "England",
+        country: "Inglaterra",
         data: [      
             {        
                 city: "Birmingham",        
@@ -278,7 +278,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Finland",
+        country: "Finlandia",
         data: [      
             {        
                 city: "Joensuu",        
@@ -307,7 +307,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "France",
+        country: "Francia",
         data: [      
             {        
                 city: "Aix-En-Provence",        
@@ -394,7 +394,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Germany",
+        country: "Alemania",
         data: [ 
             {        
                 city: "Berlin",        
@@ -409,7 +409,7 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://t.co/Lko9cGKq5C"      
             },
             {        
-                city: "Cologne",        
+                city: "Colonia",        
                 whatsappLink: "https://t.co/D0pbGM3KLk"      
             },
             {        
@@ -438,7 +438,7 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://t.co/N7eqq8nI8R"      
             },
             {        
-                city: "Hamburg",        
+                city: "Hamburgo",        
                 whatsappLink: "https://t.co/1x1zETthkb"      
             },
             {        
@@ -502,10 +502,10 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Greece",
+        country: "Grecia",
         data: [      
             {        
-                city: "Athens",        
+                city: "Atenas",        
                 whatsappLink: "https://t.co/Hx9UjlGYLS"      
             } ,
             {        
@@ -527,7 +527,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Hungary",
+        country: "Hungría",
         data: [      
             {        
                 city: "Budapest",        
@@ -553,7 +553,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Ireland",
+        country: "Irlanda",
         data: [      
             {        
                 city: "Cork",        
@@ -574,7 +574,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Italy",
+        country: "Italia",
         data: [      
             {        
                 city: "Ancona",        
@@ -753,7 +753,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Lithuania",
+        country: "Lituania",
         data: [      
             {        
                 city: "Kaunas",        
@@ -789,7 +789,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Netherlands",
+        country: "Holanda",
         data: [      
             {        
                 city: "Amsterdam",        
@@ -812,7 +812,7 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://t.co/ERJdlLhAaT"      
             },
             {        
-                city: "The Hague",        
+                city: "La Haya",        
                 whatsappLink: "https://t.co/DluSYc1Rwb"      
             } ,
             {        
@@ -844,7 +844,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Norway",
+        country: "Noruega",
         data: [      
             {        
                 city: "Bodø",        
@@ -874,7 +874,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Poland",
+        country: "Polonia",
         data: [      
             {        
                 city: "Bialystok",        
@@ -1008,7 +1008,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Romania",
+        country: "Rumania",
         data: [      
             {        
                 city: "Brasov",        
@@ -1049,7 +1049,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Slovakia",
+        country: "Eslovaquia",
         data: [      
             {        
                 city: "Bratislava",        
@@ -1082,7 +1082,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Slovenia",
+        country: "Eslovenia",
         data: [      
             {        
                 city: "Ljubljana",        
@@ -1095,7 +1095,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Sweden",
+        country: "Suecia",
         data: [      
             {        
                 city: "Gothenburg",        
@@ -1128,7 +1128,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Switzerland",
+        country: "Suiza",
         data: [      
             {        
                 city: "Basilea",        
@@ -1153,7 +1153,7 @@ export const whatsappLinksInfo = [
         ]
     },
     {
-        country: "Turkey",
+        country: "Turquia",
         data: [      
             {        
                 city: "Ankara",        

@@ -81,9 +81,9 @@ function ArtistSlider({ images }) {
 
   return (
     <div className="carousel-wrapper">
-      <h2 className="carousel-title">OUR ARTISTS</h2>
+      <h2 className="carousel-title">NUESTROS ARTISTAS</h2>
       <p className="carousel-subtitle">
-        Meet the DJs who will make you dance during the best year of your life.
+        Conoce a los DJ's que te van a hacer bailar durante el mejor año de tu vida.
       </p>
       <div
         className="carousel-container"

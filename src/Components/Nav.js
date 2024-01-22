@@ -25,19 +25,19 @@ function Nav() {
       <nav ref={navRef} className={showNav ? 'responsive_nav' : ''}>
         <div className="nav-items">
           <Link exact to="/" onClick={closeNav}>
-            HOME
+            INICIO
           </Link>
 
 
           <Link to="" onClick={() => { closeNav(); window.location.href = 'https://www.fourvenues.com/es/erasmus-dreamland'; }}>
-  TICKETS
+  ENTRADAS
 </Link>
           <Link to="/gallery" onClick={() => {closeNav(); Gallery();}}>
-            PHOTOS
+            FOTOS
           </Link>
           <div className="dropdown">
             <a href="#!" onClick={toggleNav}>
-              SOCIALS <i className="fa fa-angle-down"></i>
+              REDES SOCIALES <i className="fa fa-angle-down"></i>
             </a>
             <div className="dropdown-content">
               <a href="https://www.instagram.com/erasmusdreamland/?hl=es">INSTAGRAM <i className="fa fa-instagram"></i></a>
@@ -50,7 +50,7 @@ function Nav() {
           </div>
 
           <Link to="/whatsapp-groups" onClick={() => {closeNav(); CountriesGallery();}} className="nav-item">
-           WHATSAPP GROUPS 24/25
+           GRUPOS ESPAÑOLES WHATSAPP 24/25
           </Link>
 
 
