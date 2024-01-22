@@ -739,6 +739,10 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://t.co/YB5HXEcqzk"      
             } ,
             {        
+                city: "Varese",        
+                whatsappLink: "https://chat.whatsapp.com/GnqGC25rBYL2C7c1zNcRAx"      
+            } ,
+            {        
                 city: "Venice",        
                 whatsappLink: "https://t.co/w713pVAiyX"      
             } ,
