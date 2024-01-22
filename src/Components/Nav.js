@@ -33,7 +33,7 @@ function Nav() {
   ENTRADAS
 </Link>
           <Link to="/gallery" onClick={() => {closeNav(); Gallery();}}>
-            FOTOS
+            PHOTOS
           </Link>
           <div className="dropdown">
             <a href="#!" onClick={toggleNav}>
@@ -49,8 +49,8 @@ function Nav() {
             
           </div>
 
-          <Link to="/grupos-whatsapp-erasmus-españoles-24-25" onClick={() => {closeNav(); CountriesGallery();}} className="nav-item">
-           GRUPOS ESPAÑOLES WHATSAPP 24/25
+          <Link to="/whatsapp-groups" onClick={() => {closeNav(); CountriesGallery();}} className="nav-item">
+           GRUPOS WHATSAPP ERASMUS ESPAÑOLES 24/25
           </Link>
 
 

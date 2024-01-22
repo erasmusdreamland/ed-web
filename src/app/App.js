@@ -24,7 +24,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/grupos-whatsapp-erasmus-españoles-24-25" element={<CountriesList />} />
+        <Route path="/whatsapp-groups" element={<CountriesList />} />
         <Route path="/croatia-festival" element={<Croatia />} />
 
         <Route path="/tickets/:id" element={<TicketsScript />} />
