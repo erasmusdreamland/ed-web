@@ -341,11 +341,11 @@ export const whatsappLinksInfo = [
         data: [      
             {        
                 city: "Tallinn",        
-                whatsappLink: "https://t.co/1jVRbtVq1W"      
+                whatsappLink: "https://chat.whatsapp.com/LDJ6HZdmEnj1LqXgxAC7BF"      
             } ,
             {        
                 city: "Tartu",        
-                whatsappLink: "https://t.co/8TuowhanFk"      
+                whatsappLink: "https://chat.whatsapp.com/BbfWejnIe1rGsdSenfjkum"      
             } 
         ]
     },
@@ -354,11 +354,11 @@ export const whatsappLinksInfo = [
         data: [      
             {        
                 city: "Joensuu",        
-                whatsappLink: "https://t.co/QxMfG2kcra"      
+                whatsappLink: "https://chat.whatsapp.com/DA6XpQLbKZ3KJZOpkT2CTy"      
             },
             {        
                 city: "Helsinki",        
-                whatsappLink: "https://t.co/pTsuDNf6uw"      
+                whatsappLink: "https://chat.whatsapp.com/KqG4AVUcSlk0mrOF2xRUuc"      
             },
             {        
                 city: "Lahti",        
@@ -504,7 +504,7 @@ export const whatsappLinksInfo = [
             },
             {        
                 city: "Breda",        
-                whatsappLink: "https://t.co/S1nAvI1Tmm"      
+                whatsappLink: "https://chat.whatsapp.com/JmqdHtGw978L4QgAjK4G5z"      
             } ,
             {        
                 city: "Eindhoven",        
@@ -516,24 +516,24 @@ export const whatsappLinksInfo = [
             },
             {        
                 city: "La Haya",        
-                whatsappLink: "https://t.co/DluSYc1Rwb"      
+                whatsappLink: "https://chat.whatsapp.com/EG8LWXMJ6aZBTCX6nlu8Mc"      
             } ,
             {        
                 city: "Leiden",        
-                whatsappLink: "https://t.co/uPELiDNY1t"      
+                whatsappLink: "https://chat.whatsapp.com/HwhYFnWwN8VJWnq9mW7rRX"      
             },
 
             {        
                 city: "Maastrich",        
-                whatsappLink: "https://t.co/lt15QYt3y7"      
+                whatsappLink: "https://chat.whatsapp.com/JrGjjZx8VJ80pEDVdWJ04B"      
             } ,
             {        
                 city: "Rotterdam",        
-                whatsappLink: "https://t.co/SLzfHmDbCw"      
+                whatsappLink: "https://chat.whatsapp.com/KcQRlPvvi1AKSKhRcPByhP"      
             } ,
             {        
                 city: "Tilburg",        
-                whatsappLink: "https://t.co/pBJwrJ1hP4"      
+                whatsappLink: "https://chat.whatsapp.com/J8AS0rqs9iR4ahzCaWchZJ"      
             } ,
             {        
                 city: "Utretch",        
@@ -1046,15 +1046,15 @@ export const whatsappLinksInfo = [
             },      
             {        
                 city: "Pardubice",        
-                whatsappLink: "https://t.co/CxSXPvjJ73"      
+                whatsappLink: "https://chat.whatsapp.com/Fgd1x4QFiNzKiehJOyyQ9H"      
             },   
             {        
                 city: "Praga",        
-                whatsappLink: "https://t.co/iV5mRstieN"      
+                whatsappLink: "https://chat.whatsapp.com/KeEpjqws0IMEB5Go9NWNxb"      
             },      
             {        
                 city: "Ústí nad Labem",        
-                whatsappLink: "https://t.co/hUqelDGezY"      
+                whatsappLink: "https://chat.whatsapp.com/KOLdPRAvTWAJinxyEgk81s"      
             },     
 
 
