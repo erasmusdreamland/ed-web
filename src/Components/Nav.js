@@ -33,7 +33,7 @@ function Nav() {
   ENTRADAS
 </Link>
           <Link to="/gallery" onClick={() => {closeNav(); Gallery();}}>
-            PHOTOS
+            FOTOS
           </Link>
           <div className="dropdown">
             <a href="#!" onClick={toggleNav}>
