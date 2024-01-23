@@ -795,7 +795,7 @@ export const whatsappLinksInfo = [
             } ,
             {        
                 city: "Varese",        
-                whatsappLink: "https://chat.whatsapp.com/GnqGC25rBYL2C7c1zNcRAx"      
+                whatsappLink: "https://chat.whatsapp.com/KD7ZqNKaj5nAk9jipaqhAh"      
             } ,
             {        
                 city: "Venice",        
@@ -807,7 +807,7 @@ export const whatsappLinksInfo = [
             },
             {        
                 city: "Viterbo",        
-                whatsappLink: "https://t.co/zgarg6BfYk"      
+                whatsappLink: "https://chat.whatsapp.com/KZ24VpATjnf7StwhYHjOmX"      
             }
         ]
     },
