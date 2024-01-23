@@ -104,9 +104,6 @@ export const whatsappLinksInfo = [
                 city: "Tübingen",        
                 whatsappLink: "https://chat.whatsapp.com/KC3x3cDJUtLBVVhknMTlwV"      
             },
-
-
-
         ]
     },
     {    country: "Austria",    
@@ -139,7 +136,6 @@ export const whatsappLinksInfo = [
             city: "Wels",        
             whatsappLink: "https://chat.whatsapp.com/JQYYYWh5XXJH1l5TByVFCC"      
         },      
-
     ]
     },
     {
