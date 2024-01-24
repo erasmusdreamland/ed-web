@@ -660,6 +660,10 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://chat.whatsapp.com/DflW5LGhynV4ovEZ3aXLLQ"      
             },
             {        
+                city: "Camerino",        
+                whatsappLink: "https://chat.whatsapp.com/FHiovgT4ZDEAvny5rNDdkd"      
+            },
+            {        
                 city: "Cassino",        
                 whatsappLink: "https://chat.whatsapp.com/FN1FxijVaRe8qUwdUy2DKd"      
             } ,
@@ -800,6 +804,10 @@ export const whatsappLinksInfo = [
             {        
                 city: "Verona",        
                 whatsappLink: "https://chat.whatsapp.com/EqBBKP6epMO5qQ9w9k8EJm"      
+            },
+                        {        
+                city: "Vercelli",        
+                whatsappLink: "https://chat.whatsapp.com/Ch5HvtwXxPz9HZVNas1Dl7"      
             },
             {        
                 city: "Viterbo",        
