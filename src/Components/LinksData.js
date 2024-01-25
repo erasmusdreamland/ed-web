@@ -5,6 +5,10 @@ export const whatsappLinksInfo = [
         country: "Alemania",
         data: [ 
             {        
+                city: "Aachen",        
+                whatsappLink: "https://chat.whatsapp.com/KNbtirMmG9d50hgbHxXDYU"      
+            },
+            {        
                 city: "Berlin",        
                 whatsappLink: "https://chat.whatsapp.com/I2XPK8idozsGws3ifDj2HQ"      
             },
@@ -704,6 +708,10 @@ export const whatsappLinksInfo = [
                 city: "Lecce",        
                 whatsappLink: "https://chat.whatsapp.com/C5RfFIDFRg50tybaucA6Vo"      
             },
+            {        
+                city: "Messina",        
+                whatsappLink: "https://chat.whatsapp.com/EHZDN0uNenP6VwX2TPMXlX"      
+            } ,
             {        
                 city: "Milan",        
                 whatsappLink: "https://chat.whatsapp.com/LW2tUV8rtmvITaTUq2AISe"      
