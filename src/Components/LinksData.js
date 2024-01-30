@@ -307,6 +307,32 @@ export const whatsappLinksInfo = [
         ]
     },
     {
+        country: "Escocia",
+        data: [       
+            {        
+                city: "Escocia",        
+                whatsappLink: "https://chat.whatsapp.com/Fku6lEXF2oeH91KXmvMunJ"      
+            },
+            {        
+                city: "Aberdeen",        
+                whatsappLink: "https://chat.whatsapp.com/LgWVFzKGqtn0vBNZJyHDNf"      
+            },
+            {        
+                city: "Dundee",        
+                whatsappLink: "https://chat.whatsapp.com/Ewz2l2DmlC1HjxtYWcAIrw"      
+            },
+            {        
+                city: "Edimburgo",        
+                whatsappLink: "https://chat.whatsapp.com/D3iwziGlQE2DikVpWqAs4v"      
+            },
+            {        
+                city: "Glasgow",        
+                whatsappLink: "https://chat.whatsapp.com/KSnu5nmG2Ix8WpI6eLkXBP"      
+            }
+
+        ]
+    },
+    {
         country: "Eslovaquia",
         data: [      
             {        
