@@ -67,6 +67,14 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://chat.whatsapp.com/GzTqxpfnCbpAGH5Pb3eJcH"      
             },
             {        
+                city: "Kiel",        
+                whatsappLink: "https://chat.whatsapp.com/Fek7LnRSxHWHmEFIm03fS9"      
+            },
+            {        
+                city: "Leipzing",        
+                whatsappLink: "https://chat.whatsapp.com/FLgQZAMFpOGCBwgqbPerjK"      
+            },
+            {        
                 city: "Mainz",        
                 whatsappLink: "https://chat.whatsapp.com/KnA73ny8V02HlaXnloQ3zW"      
             },
@@ -107,6 +115,10 @@ export const whatsappLinksInfo = [
             {        
                 city: "Tübingen",        
                 whatsappLink: "https://chat.whatsapp.com/KC3x3cDJUtLBVVhknMTlwV"      
+            },
+            {        
+                city: "Würzburg",        
+                whatsappLink: "https://chat.whatsapp.com/JtzMJK5iuQoBNz12TlN9aT"      
             },
         ]
     },
@@ -265,6 +277,10 @@ export const whatsappLinksInfo = [
             {        
                 city: "Aalborg",        
                 whatsappLink: "https://chat.whatsapp.com/GgkrUz29D8VD5NzPb4vssM"      
+            },
+            {        
+                city: "Aarhus",        
+                whatsappLink: "https://chat.whatsapp.com/JzcQcSKREpqGXei2e6PAS3"      
             },
             {        
                 city: "Copenhague",        
@@ -918,6 +934,10 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://chat.whatsapp.com/BdJN2Xt0WBg7e2wr36ZcrY"      
             } ,
             {        
+                city: "Gliwice",        
+                whatsappLink: "https://chat.whatsapp.com/LpKV8LHFk49KkUy6YLyqy7"      
+            } ,
+            {        
                 city: "Katowice",        
                 whatsappLink: "https://chat.whatsapp.com/JycfX6MGyJIAEn9wUAkaVA"      
             },
@@ -1125,6 +1145,10 @@ export const whatsappLinksInfo = [
             {        
                 city: "Halmstad",        
                 whatsappLink: "https://t.co/ZQHRW5hq7i"      
+            },
+            {        
+                city: "Kristianstad",        
+                whatsappLink: "https://chat.whatsapp.com/Eksh3wuaeHcJkBkc5OBoNp"      
             },
             {        
                 city: "Linköping ",        
