@@ -180,6 +180,12 @@ export const cardData = [
     image: '/thumnails-gallery/barce-krakow.jpg',
     linkUrl: "/barce-krakow",
   },
+  {
+    id: 0,
+    title: 'The Biggest Carnival XXL Festival | Krakow 15/02/24 ',
+    image: '/thumnails-gallery/carnaval-granada.jpg',
+    linkUrl: "/carnaval-granada",
+  },
 
 
 
