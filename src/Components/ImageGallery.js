@@ -17,7 +17,7 @@ const folderInfo = [
   {
     imageFolder: '/carnaval-bruselas/',
     imageFiles:require.context('../../public/carnaval-bruselas', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST CARNIVAL XXL FESTIVAL | BRUSSELS (BELGIUM) | 15/02/24'
+    title: 'THE BIGGEST CARNIVAL XXL FESTIVAL | BRUSSELS (BELGIUM) | 08/02/24'
   },
   {
     imageFolder: '/barce-krakow/',
