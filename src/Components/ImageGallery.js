@@ -8,7 +8,11 @@ import { idCard } from './Card';
 
 
 const folderInfo = [
-
+  {
+    imageFolder: '/carnaval-cracovia/',
+    imageFiles:require.context('../../public/carnaval-cracovia', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST CARNIVAL XXL FESTIVAL | KRAKOW (POLAND) | 24/02/24'
+  },
   {
     imageFolder: '/carnaval-granada/',
     imageFiles:require.context('../../public/carnaval-granada', false, /\.(jpe?g|png|gif)$/),
