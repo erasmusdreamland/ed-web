@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles/main.css';
-import { cardData } from './CardList';
+import { cardData } from './CardList'; 
 import Card from './Card';
 import { idCard } from './Card';
 
