@@ -199,6 +199,12 @@ export const cardData = [
     image: '/thumnails-gallery/carnaval-cracovia.jpg',
     linkUrl: "/carnaval-cracovia",
   },
+  {
+    id: 0,
+    title: 'The Biggest Erasmus Festival with Alex Martini | Krakow 07/03/24 ',
+    image: '/thumnails-gallery/martini-cracovia-07.jpg',
+    linkUrl: "/martini-cracovia-07",
+  },
 
 
 
