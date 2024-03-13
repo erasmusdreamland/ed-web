@@ -15,7 +15,7 @@ const folderInfo = [
   },
   {
     imageFolder: '/carnaval-cracovia/',
-
+    imageFiles:require.context('../../public/carnaval-cracovia', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST CARNIVAL XXL FESTIVAL | KRAKOW (POLAND) | 24/02/24'
   },
   {
