@@ -7,7 +7,7 @@ import { idCard } from './Card';
 
 
 
-const folderInfo = [
+const folderInfo = [  
   {
     imageFolder: '/martini/',
     imageFiles:require.context('../../public/martini', false, /\.(jpe?g|png|gif)$/),
