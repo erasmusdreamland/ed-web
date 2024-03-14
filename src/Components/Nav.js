@@ -30,7 +30,7 @@ function Nav() {
 
 
           <Link to="" onClick={() => { closeNav(); window.location.href = 'https://www.fourvenues.com/es/erasmus-dreamland'; }}>
-  ENTRADAS
+  COMPRAR ENTRADAS
 </Link>
           <Link to="/gallery" onClick={() => {closeNav(); Gallery();}}>
             FOTOS
