@@ -9,20 +9,64 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://chat.whatsapp.com/KNbtirMmG9d50hgbHxXDYU"      
             },
             {        
+                city: "Aleen",        
+                whatsappLink: "https://chat.whatsapp.com/GS7D2k0uHPo18sg3sSowH9"      
+            },
+            {        
+                city: "Aschaffenburg",        
+                whatsappLink: "https://chat.whatsapp.com/LP65SlHyYMB6Tz9GBH3ZZG"      
+            },
+            {        
+                city: "Augsburg",        
+                whatsappLink: "https://chat.whatsapp.com/BEUNdzgsuW86vjlPlZk6GE"      
+            },
+            {        
+                city: "Bamberg",        
+                whatsappLink: "https://chat.whatsapp.com/KgKbeyk5FSh5YlkGhTcff0"      
+            },
+            {        
+                city: "Bayreuth",        
+                whatsappLink: "https://chat.whatsapp.com/BYmHhXD867q7AnTw9LHwlv"      
+            },
+            {        
                 city: "Berlin",        
                 whatsappLink: "https://chat.whatsapp.com/I2XPK8idozsGws3ifDj2HQ"      
+            },
+            {        
+                city: "Bielefeld",        
+                whatsappLink: "https://chat.whatsapp.com/L6dF55PeoJPCINTrPnQ6q9"      
+            },
+            {        
+                city: "Bochum",        
+                whatsappLink: "https://chat.whatsapp.com/BWus4aGfSeGFA4db2CFaon"      
             },
             {        
                 city: "Bremen",        
                 whatsappLink: "https://chat.whatsapp.com/BeXLpsKu3DmAlDVgYfeDhL"      
             },
             {        
+                city: "Brunswick",        
+                whatsappLink: "https://chat.whatsapp.com/JJxuSlQx4EgEpz2ssNgCYD"      
+            },
+            {        
                 city: "Bonn",        
                 whatsappLink: "https://chat.whatsapp.com/CqRMzw5pF6e0RBo43OFhYD"      
             },
             {        
+                city: "Chemintz",        
+                whatsappLink: "https://chat.whatsapp.com/Lq3EuEHO0veKRBGHa9rUfy"      
+            },
+            {        
+                city: "Coblenza",        
+                whatsappLink: "https://chat.whatsapp.com/GfVvh8bnMUIBtKy2jopYBI"      
+            },
+            {        
                 city: "Colonia",        
                 whatsappLink: "https://chat.whatsapp.com/JUzs0TLIacLHg9locB7DzA"      
+            },
+            {        
+                city: "Detmold",        
+                whatsappLink: "https://chat.whatsapp.com/Hi6tU3HpLLZIsaXjN3gBQZ"      
             },
             {        
                 city: "Dresde",        
@@ -33,17 +77,41 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://chat.whatsapp.com/HTfWl7t57sxI4iBOcbd1MA"      
             },
             {        
+                city: "Duisburg",        
+                whatsappLink: "https://chat.whatsapp.com/FYpB8db0zf0KEAAmau1eNZ"      
+            },
+            {        
                 city: "Dusseldorf",        
                 whatsappLink: "https://chat.whatsapp.com/Fujn1oidciQ09XLOu00e3l"      
+            },
+            {        
+                city: "Erfurt",        
+                whatsappLink: "https://chat.whatsapp.com/BElgkMmaB9H3nnFYOoXpiK"      
             },
             {        
                 city: "Essen",        
                 whatsappLink: "https://chat.whatsapp.com/HsE23wTxRmZGYtN7fwfgxA"      
             },
+            {        
+                city: "Flensburg",        
+                whatsappLink: "https://chat.whatsapp.com/JuRrIofLLz69bbfgm9hyzm"      
+            },
             
             {        
                 city: "Frankfurt",        
                 whatsappLink: "https://chat.whatsapp.com/Cp42YRXrNNL5NY5Czy6Kyf"      
+            },
+            {        
+                city: "Frankfurt Oder",        
+                whatsappLink: "https://chat.whatsapp.com/JkcofCiZhA1Eq8TTX1z4GA"      
+            },
+            {        
+                city: "Friburgo",        
+                whatsappLink: "https://chat.whatsapp.com/BpdozYHrXQfI8H67r01jB9"      
+            },
+            {        
+                city: "Giessen",        
+                whatsappLink: "https://chat.whatsapp.com/L9T9hcs3ot4I9H4rOoZJnW"      
             },
             {        
                 city: "Göttingen",        
@@ -57,26 +125,70 @@ export const whatsappLinksInfo = [
                 city: "Hannover",        
                 whatsappLink: "https://chat.whatsapp.com/DIpLrpFqbguGs8ByN5k45K"      
             },
+            {        
+                city: "Heidelberg",        
+                whatsappLink: "https://chat.whatsapp.com/F4NdmBczK7S6H6EW1wFWlj"      
+            },
+            {        
+                city: "Hildesheim",        
+                whatsappLink: "https://chat.whatsapp.com/Ij1u0AgLp0v9yEoGSzfzkj"      
+            },
+            {        
+                city: "Ingolstadt",        
+                whatsappLink: "https://chat.whatsapp.com/I5WDIe3m8tZ2Iy5wCkltif"      
+            },
+            {        
+                city: "Kaiserlautern",        
+                whatsappLink: "https://chat.whatsapp.com/Kduvr4by1gGGxtECTTbMMx"      
+            },
             
             {        
                 city: "Karlsruhe",        
                 whatsappLink: "https://chat.whatsapp.com/En27wcdL8y6DnIToAcG4DK"      
             },
             {        
-                city: "Konstanz",        
-                whatsappLink: "https://chat.whatsapp.com/GzTqxpfnCbpAGH5Pb3eJcH"      
+                city: "Kempten",        
+                whatsappLink: "https://chat.whatsapp.com/HLR66THYF05BtjjJ9Env0q"      
             },
             {        
                 city: "Kiel",        
                 whatsappLink: "https://chat.whatsapp.com/Fek7LnRSxHWHmEFIm03fS9"      
             },
             {        
+                city: "Kleve",        
+                whatsappLink: "https://chat.whatsapp.com/HOh7GuJOeOMAn2yHXjsRlO"      
+            },
+            {        
+                city: "Konstanz",        
+                whatsappLink: "https://chat.whatsapp.com/GzTqxpfnCbpAGH5Pb3eJcH"      
+            },
+            {        
                 city: "Leipzing",        
                 whatsappLink: "https://chat.whatsapp.com/FLgQZAMFpOGCBwgqbPerjK"      
             },
             {        
+                city: "Lubeck",        
+                whatsappLink: "https://chat.whatsapp.com/KrX9tf6FVINLxQnIT4GY72"      
+            },
+            {        
+                city: "Luneburg",        
+                whatsappLink: "https://chat.whatsapp.com/G4UPXUNlHPp4iIbhSBZ2ZP"      
+            },
+            {        
+                city: "Magdeburg",        
+                whatsappLink: "https://chat.whatsapp.com/GcQvhyLx1SGHNL4AKinjHt"      
+            },
+            {        
                 city: "Mainz",        
                 whatsappLink: "https://chat.whatsapp.com/KnA73ny8V02HlaXnloQ3zW"      
+            },
+            {        
+                city: "Merseburg",        
+                whatsappLink: "https://chat.whatsapp.com/DLsE7GKBAcVH88rx0b2kM3"      
+            },
+            {        
+                city: "Mulheim",        
+                whatsappLink: "https://chat.whatsapp.com/BXkqkvalfhs2BMXjASjsSK"      
             },
             {        
                 city: "Munich",        
@@ -99,14 +211,49 @@ export const whatsappLinksInfo = [
                 city: "Nuremberg",        
                 whatsappLink: "https://chat.whatsapp.com/CDAOUpHJPhc2zddWDT87HD"      
             },
-
             {        
                 city: "Osnabrück",        
                 whatsappLink: "https://chat.whatsapp.com/DrSdQoSn1JLAyrP2lLLpkL"      
             },
             {        
+                city: "Oestricht-Winkel",        
+                whatsappLink: "https://chat.whatsapp.com/FarqzF98ZWq1QFKR4rxG2D"      
+            },
+            {        
+                city: "Oldenburg",        
+                whatsappLink: "https://chat.whatsapp.com/FarqzF98ZWq1QFKR4rxG2D"      
+            },
+            {        
+                city: "Paderborn",        
+                whatsappLink: "https://chat.whatsapp.com/HDd76qSjsVk14p1UW3aIEJ"      
+            },
+            {        
+                city: "Passau",        
+                whatsappLink: "https://chat.whatsapp.com/CXuRp2ff1DLDaFuvURKAJt"      
+            },
+            {        
+                city: "Phorzeim",        
+                whatsappLink: "https://chat.whatsapp.com/Cc0WCdxbOBvBQni5sA26oJ"      
+            },
+            {        
+                city: "Potsdam",        
+                whatsappLink: "https://chat.whatsapp.com/HL0B3UOTfz3Fy25XxJzyLf"      
+            },
+            {        
+                city: "Ravensburg",        
+                whatsappLink: "https://chat.whatsapp.com/CrGWGLwUpc1IhUK0LIbBL8"      
+            },
+            {        
                 city: "Regensburg",        
                 whatsappLink: "https://chat.whatsapp.com/JkQmO2QgeccHRqvr9aHM1F"      
+            },
+            {        
+                city: "Reutlingen",        
+                whatsappLink: "https://chat.whatsapp.com/HVN4gZQZzImFRZOhJr8gwT"      
+            },
+            {        
+                city: "Schamalkalden",        
+                whatsappLink: "https://chat.whatsapp.com/BAhbR9qQ03TFtSQaMsr88H"      
             },
             {        
                 city: "Stuttgart",        
@@ -115,6 +262,30 @@ export const whatsappLinksInfo = [
             {        
                 city: "Tübingen",        
                 whatsappLink: "https://chat.whatsapp.com/KC3x3cDJUtLBVVhknMTlwV"      
+            },
+            {        
+                city: "Vechta",        
+                whatsappLink: "https://chat.whatsapp.com/IFMDMog4Vl12aikhX1ifNt"      
+            },
+            {        
+                city: "Wernigerode",        
+                whatsappLink: "https://chat.whatsapp.com/KvSlnpL5iw4FQ23ib71DHU"      
+            },
+            {        
+                city: "Weimar",        
+                whatsappLink: "https://chat.whatsapp.com/DINA34d8XgqANIyXZveUJ4"      
+            },
+            {        
+                city: "Wilhemshaven",        
+                whatsappLink: "https://chat.whatsapp.com/BTG5YsQI8B39T7SA0F4zni"      
+            },
+            {        
+                city: "Wiesbaden",        
+                whatsappLink: "https://chat.whatsapp.com/LwQTFSfm5mbLCVWhOUQdGm"      
+            },
+            {        
+                city: "Worms",        
+                whatsappLink: "https://chat.whatsapp.com/F9z5KawTbB9KTDCmoDF5SH"      
             },
             {        
                 city: "Würzburg",        
