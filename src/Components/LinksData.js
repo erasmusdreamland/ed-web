@@ -675,6 +675,10 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://chat.whatsapp.com/KYt0g7nT4abE9VV72gK7rl"      
             },
             {        
+                city: "Angers",        
+                whatsappLink: "https://chat.whatsapp.com/J9M9CDZCAjh0vLZ98Zg6u7"      
+            },
+            {        
                 city: "Bordeaux",        
                 whatsappLink: "https://chat.whatsapp.com/KKqyW1jtaZC6zRARdKQqwR"      
             },
@@ -683,12 +687,24 @@ export const whatsappLinksInfo = [
                 whatsappLink: "https://chat.whatsapp.com/EwNMPavDqEK2jrkW6xHMz6"      
             },
             {        
-                city: "Clemont-Ferrand",        
-                whatsappLink: "https://chat.whatsapp.com/DolPaZkzT3C7eQyOKSptue"      
+                city: "Cergy",        
+                whatsappLink: "https://chat.whatsapp.com/GkzEQ9T2JqO5AFYKqFjtVW"      
             },
             {        
                 city: "Chambery",        
                 whatsappLink: "https://chat.whatsapp.com/IFVVJ0XOrs37fVjkuvyNlZ"      
+            },
+            {        
+                city: "Clemont-Ferrand",        
+                whatsappLink: "https://chat.whatsapp.com/DolPaZkzT3C7eQyOKSptue"      
+            },
+            {        
+                city: "Perpignan",        
+                whatsappLink: "https://chat.whatsapp.com/DCB3wsaUKnHHAJM1ABYjfl"      
+            },
+            {        
+                city: "Compiegne",        
+                whatsappLink: "https://chat.whatsapp.com/EgxI1hqhuq3D9tFxkLpw85"      
             },
             {        
                 city: "Dijon",        
