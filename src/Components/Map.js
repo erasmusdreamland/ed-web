@@ -52,7 +52,7 @@ const Map = () => {
     const club8 =  europeMap.properties.CLUB8
     const city9 =  europeMap.properties.CITY9
     const club9 =  europeMap.properties.CLUB9
-    const cityAndClub = city && club ? `${city} ${club}` : 'We will be there very soon!';
+    const cityAndClub = city && club ? `${city} ${club}` : '¡Muy pronto!';
   
     setTooltipContent((
       <div>
