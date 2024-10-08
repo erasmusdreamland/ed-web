@@ -8,15 +8,16 @@ import { idCard } from './Card';
 
 
 const folderInfo = [  
-  {
-    imageFolder: '/welcome-sofia-24/',
-    imageFiles:require.context('../../public/welcome-sofia-24', false, /\.(jpe?g|png|gif)$/),
-    title: 'THE BIGGEST ERASMUS WELCOME PARTY | SOFÍA (BULGARIA) | 27/09/24'
-  },
+
   {
     imageFolder: '/welcome-coimbra-24/',
     imageFiles:require.context('../../public/welcome-coimbra-24', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS WELCOME PARTY | COIMBRA (PORTUGAL) | 12/09/24'
+  },
+  {
+    imageFolder: '/welcome-bolonia-24/',
+    imageFiles:require.context('../../public/welcome-bolonia-24', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | BOLONIA (ITALIA) | 11/09/24'
   },
   {
     imageFolder: '/welcome-lp-24/',

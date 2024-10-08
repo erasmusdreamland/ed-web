@@ -36,15 +36,16 @@ export const cardData = [
   },
   {
     id: 1,
+    title: 'The Biggest Erasmus Welcome Party | Bolonia 11/09/24 ',
+    image: '/thumnails-gallery/welcome-bolonia-24.jpg',
+    linkUrl: "/welcome-bolonia-24",
+  },
+
+  {
+    id: 0,
     title: 'The Biggest Erasmus Welcome Party | Coimbra 12/09/24 ',
     image: '/thumnails-gallery/welcome-coimbra-24.jpg',
     linkUrl: "/welcome-coimbra-24",
-  },
-  {
-    id: 0,
-    title: 'The Biggest Erasmus Welcome Party | Sofía 27/09/24 ',
-    image: '/thumnails-gallery/welcome-sofia-24.jpg',
-    linkUrl: "/welcome-sofia-24",
   },
 
 
