@@ -8,6 +8,16 @@ import { idCard } from './Card';
 
 
 const folderInfo = [  
+  {
+    imageFolder: '/welcome-cracovia-24/',
+    imageFiles:require.context('../../public/welcome-cracovia-24', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | CRACOVIA (POLONIA) | 01/10/24'
+  },
+  {
+    imageFolder: '/welcome-wroclaw-24/',
+    imageFiles:require.context('../../public/welcome-wroclaw-24', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | WROCLAW (POLONIA) | 30/09/24'
+  },
 
   {
     imageFolder: '/welcome-coimbra-24/',
