@@ -23,6 +23,11 @@ const folderInfo = [
     imageFiles:require.context('../../public/welcome-wroclaw-24', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS WELCOME PARTY | WROCLAW (POLONIA) | 30/09/24'
   },
+  {
+    imageFolder: '/welcome-sofia-24/',
+    imageFiles:require.context('../../public/welcome-sofia-24', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS WELCOME PARTY | SOFÍA (BULGARIA) | 27/09/24'
+  },
 
   {
     imageFolder: '/welcome-coimbra-24/',
