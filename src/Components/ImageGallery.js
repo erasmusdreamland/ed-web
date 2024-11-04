@@ -9,6 +9,26 @@ import { idCard } from './Card';
 
 const folderInfo = [  
   {
+    imageFolder: '/halloween-oporto/',
+    imageFiles:require.context('../../public/halloween-oporto', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS HALLOWEEN FESTIVAL | OPORTO (PORTUGAL) | 31/10/24'
+  },
+  {
+    imageFolder: '/halloween-lisboa/',
+    imageFiles:require.context('../../public/halloween-lisboa', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS HALLOWEEN FESTIVAL | LISBOA (PORTUGAL) | 30/10/24'
+  },
+  {
+    imageFolder: '/halloween-bolonia/',
+    imageFiles:require.context('../../public/halloween-bolonia', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS HALLOWEEN FESTIVAL | BOLONIA (ITALIA) | 29/10/24'
+  },
+  {
+    imageFolder: '/halloween-bratislava/',
+    imageFiles:require.context('../../public/halloween-bratislava', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS HALLOWEEN FESTIVAL | BRATISLAVA (ESLOVAQUIA) | 28/10/24'
+  },
+  {
     imageFolder: '/tbef-24/',
     imageFiles:require.context('../../public/tbef-24', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS FESTIVAL | BRATISLAVA (ESLOVAQUIA) | 12/10/24'
