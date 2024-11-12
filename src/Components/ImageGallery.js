@@ -9,6 +9,11 @@ import { idCard } from './Card';
 
 const folderInfo = [  
   {
+    imageFolder: '/halloween-sofia-24/',
+    imageFiles:require.context('../../public/halloween-sofia-24', false, /\.(jpe?g|png|gif)$/),
+    title: 'THE BIGGEST ERASMUS HALLOWEEN FESTIVAL | SOFÍA (BULGARIA) | 01/11/24'
+  },
+  {
     imageFolder: '/halloween-cracovia-24/',
     imageFiles:require.context('../../public/halloween-cracovia-24', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS HALLOWEEN FESTIVAL | CRACOVIA (POLONIA) | 31/10/24'
