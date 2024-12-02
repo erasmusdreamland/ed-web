@@ -107,6 +107,30 @@ export const cardData = [
     image: '/thumnails-gallery/halloween-sofia-24.jpg',
     linkUrl: "/halloween-sofia-24",
   },    
+  {
+    id: 3,
+    title: 'Omar Montes Eurotrip | Bolonia 26/11/24 ',
+    image: '/thumnails-gallery/ombolonia.jpg',
+    linkUrl: "/omar-montes-bolonia",
+  },    
+  {
+    id: 2,
+    title: 'Omar Montes Eurotrip | Bruselas 27/11/24 ',
+    image: '/thumnails-gallery/ombruselas.jpg',
+    linkUrl: "/omar-montes-bruselas",
+  },    
+  {
+    id: 1,
+    title: 'Omar Montes Eurotrip | Cracovia 28/11/24 ',
+    image: '/thumnails-gallery/omcracovia.jpg',
+    linkUrl: "/omar-montes-cracovia",
+  },    
+  {
+    id: 0,
+    title: 'Omar Montes Eurotrip | Roma 29/11/24 ',
+    image: '/thumnails-gallery/omroma.jpg',
+    linkUrl: "/omar-montes-roma",
+  },    
     
 
 

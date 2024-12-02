@@ -9,6 +9,26 @@ import { idCard } from './Card';
 
 const folderInfo = [  
   {
+    imageFolder: '/omar-montes-roma/',
+    imageFiles:require.context('../../public/omar-montes-roma', false, /\.(jpe?g|png|gif)$/),
+    title: 'OMAR MONTES EUROTRIP | ROMA (ITALIA) | 29/11/24'
+  },
+  {
+    imageFolder: '/omar-montes-cracovia/',
+    imageFiles:require.context('../../public/omar-montes-cracovia', false, /\.(jpe?g|png|gif)$/),
+    title: 'OMAR MONTES EUROTRIP | CRACOVIA (POLONIA) | 28/11/24'
+  },
+  {
+    imageFolder: '/omar-montes-bruselas/',
+    imageFiles:require.context('../../public/omar-montes-bruselas', false, /\.(jpe?g|png|gif)$/),
+    title: 'OMAR MONTES EUROTRIP | BRUSELAS (BÉLGICA) | 27/11/24'
+  },
+  {
+    imageFolder: '/omar-montes-bolonia/',
+    imageFiles:require.context('../../public/omar-montes-bolonia', false, /\.(jpe?g|png|gif)$/),
+    title: 'OMAR MONTES EUROTRIP | BOLONIA (ITALIA) | 26/11/24'
+  },
+  {
     imageFolder: '/halloween-sofia-24/',
     imageFiles:require.context('../../public/halloween-sofia-24', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS HALLOWEEN FESTIVAL | SOFÍA (BULGARIA) | 01/11/24'
