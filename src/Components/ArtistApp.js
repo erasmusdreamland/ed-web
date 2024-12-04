@@ -2,6 +2,7 @@ import React from "react";
 import ArtistSlider from "./ArtistSlider";
 
 const images = [
+  
   {
     src: "../artists/omar montes.jpg",
     title: "Omar Montes",

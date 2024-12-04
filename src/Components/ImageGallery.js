@@ -9,6 +9,11 @@ import { idCard } from './Card';
 
 const folderInfo = [  
   {
+    imageFolder: '/omar-montes-oporto/',
+    imageFiles:require.context('../../public/omar-montes-oporto', false, /\.(jpe?g|png|gif)$/),
+    title: 'OMAR MONTES EUROTRIP | OPORTO (PORTUGAL) | 30/11/24'
+  },
+  {
     imageFolder: '/omar-montes-roma/',
     imageFiles:require.context('../../public/omar-montes-roma', false, /\.(jpe?g|png|gif)$/),
     title: 'OMAR MONTES EUROTRIP | ROMA (ITALIA) | 29/11/24'
