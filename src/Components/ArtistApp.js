@@ -2,6 +2,30 @@ import React from "react";
 import ArtistSlider from "./ArtistSlider";
 
 const images = [
+  {
+    src: "../artists/omar montes.jpg",
+    title: "Omar Montes",
+    description: "Artista Número 1 de España, con más de 10 canciones en el top 50, se una a nuestra familia erasmus tras realizar su gira por europa con nosotros.",
+    inst:"https://www.instagram.com/omarmontes/",
+    tiktok:"https://www.tiktok.com/@omarmontesoficial",
+    logo:"../artists/logoomar.png"
+  },
+  {
+    src: "../artists/selecta.jpg",
+    title: "Selecta",
+    description: "El niño, productor de artistas como Recycled J, Duki, Neo Pistea, Don Patricio, Bejo, ATICA o Israel B, entre otros, Selecta se consolida como uno de los productores clave en el panorama musical español con un estilo propio imposible de encasillar.",
+    inst:"https://www.instagram.com/selecta33/",
+    tiktok:"https://www.tiktok.com/@selectaelnino",
+    logo:"../artists/logoselecta.png"
+  },
+  {
+    src: "../artists/carmen.jpg",
+    title: "Carmen de la Fuente",
+    description: "Con más de 200K seguidores en redes, Carmen de la Fuente se ha proclamado la DJ con más impacto del panorama español.",
+    inst:"https://www.instagram.com/carmendelafuente/",
+    tiktok:"https://www.tiktok.com/@carmendelafuente",
+    logo:"../artists/logocarmen.png"
+  },
     {
       src: "../artists/alvama (FILEminimizer).png",
       title: "Alvama Ice",
@@ -9,7 +33,6 @@ const images = [
       inst:"https://www.instagram.com/alvama_ice/",
       tiktok:"https://www.tiktok.com/@alvama_ice",
       logo:"../artists/alvamalogo.png"
-
     },
     {
         src: "../artists/martini (FILEminimizer).png",
@@ -56,25 +79,6 @@ const images = [
         logo:"../artists/vybslogo.png"
   
       },
-    {
-      src: "../artists/alvarez (FILEminimizer).png",
-      title: "Álvarez",
-      description: "DJ y productor musical, caracterizado por sus sets enérgicos y versátiles, pinchando tanto estilos urbanos como electrónicos. Con esta nueva incorporación, Erasmus Dreamland cuenta con un artista único que ha roto la escena de la música urbana durante su estancia Erasmus en Cracovia.",
-      inst:"",
-      tiktok:"",
-      logo:"../artists/alvarezlogo.png"
-
-    },
-    {
-      src: "../artists/seaquake (FILEminimizer).jpg",
-      title: "Seaquake",
-      description: "Caracterizado por mezclar el género urbano con los géneros más duros de la música, te hará enloquecer con su directo 'THE HARDEST URBAN SHOW'. Lo suyo son los cierres. Quédate hasta el final, ¡porque será entonces cuando se desate la locura más absoluta!",
-      inst:"https://www.instagram.com/iamseaquake/",
-      tiktok:"https://www.tiktok.com/@iamseaquake",
-      logo:"../artists/seaquakelogo.png"
-
-    }
-
 
   ];
 

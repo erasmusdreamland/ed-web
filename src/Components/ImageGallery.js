@@ -59,8 +59,8 @@ const folderInfo = [
     title: 'THE BIGGEST ERASMUS HALLOWEEN FESTIVAL | BRATISLAVA (ESLOVAQUIA) | 28/10/24'
   },
   {
-    imageFolder: '/tbef-24/',
-    imageFiles:require.context('../../public/tbef-24', false, /\.(jpe?g|png|gif)$/),
+    imageFolder: '/tbef24/',
+    imageFiles:require.context('../../public/tbef24', false, /\.(jpe?g|png|gif)$/),
     title: 'THE BIGGEST ERASMUS FESTIVAL | BRATISLAVA (ESLOVAQUIA) | 12/10/24'
   },
   {
