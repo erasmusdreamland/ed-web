@@ -11,6 +11,15 @@ const images = [
     tiktok:"https://www.tiktok.com/@omarmontesoficial",
     logo:"../artists/logoomar.png"
   },
+    
+  {
+    src: "../artists/kikofoto.jpg",
+    title: "Kiko Rivera",
+    description: "Creador del hit mundial 'El Mambo' y conocido por todas las generaciones de Españoles, se une a la familia Erasmus.",
+    inst:"https://www.instagram.com/riverakiko/",
+    tiktok:"https://www.tiktok.com/@riverakikooficial",
+    logo:"../artists/logokiko.png"
+  },
   {
     src: "../artists/selecta.jpg",
     title: "Selecta",
@@ -20,6 +29,14 @@ const images = [
     logo:"../artists/logoselecta.png"
   },
   {
+    src: "../artists/alvama (FILEminimizer).png",
+    title: "Alvama Ice",
+    description: "El madrileño se dio a conocer tras subir sus sesiones a las redes sociales durante el confinamiento, alcanzando el millón de seguidores en TikTok y siendo conocido desde entonces por sus propios remixes y mashups, con ritmos de hip hop, trap o reggaeton.",
+    inst:"https://www.instagram.com/alvama_ice/",
+    tiktok:"https://www.tiktok.com/@alvama_ice",
+    logo:"../artists/alvamalogo.png"
+  },
+  {
     src: "../artists/carmen.jpg",
     title: "Carmen de la Fuente",
     description: "Con más de 200K seguidores en redes, Carmen de la Fuente se ha proclamado la DJ con más impacto del panorama español.",
@@ -27,14 +44,7 @@ const images = [
     tiktok:"https://www.tiktok.com/@carmendelafuente",
     logo:"../artists/logocarmen.png"
   },
-    {
-      src: "../artists/alvama (FILEminimizer).png",
-      title: "Alvama Ice",
-      description: "El madrileño se dio a conocer tras subir sus sesiones a las redes sociales durante el confinamiento, alcanzando el millón de seguidores en TikTok y siendo conocido desde entonces por sus propios remixes y mashups, con ritmos de hip hop, trap o reggaeton.",
-      inst:"https://www.instagram.com/alvama_ice/",
-      tiktok:"https://www.tiktok.com/@alvama_ice",
-      logo:"../artists/alvamalogo.png"
-    },
+
     {
         src: "../artists/martini (FILEminimizer).png",
         title: "Alex Martini",
