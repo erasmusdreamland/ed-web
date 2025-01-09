@@ -50,7 +50,7 @@ function Nav() {
           </div>
 
           <Link to="/whatsapp-groups" onClick={() => {closeNav(); CountriesGallery();}} className="nav-item">
-           GRUPOS WHATSAPP ERASMUS ESPAÑOLES 24/25
+           GRUPOS WHATSAPP ERASMUS ESPAÑOLES 25/26
           </Link>
 
 
