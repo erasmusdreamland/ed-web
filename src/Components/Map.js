@@ -52,6 +52,18 @@ const Map = () => {
     const club8 =  europeMap.properties.CLUB8
     const city9 =  europeMap.properties.CITY9
     const club9 =  europeMap.properties.CLUB9
+    const city10 =  europeMap.properties.CITY10
+    const club10 =  europeMap.properties.CLUB10
+    const city11 =  europeMap.properties.CITY11
+    const club11 =  europeMap.properties.CLUB11
+    const city12 =  europeMap.properties.CITY12
+    const club12=  europeMap.properties.CLUB12
+    const city13 =  europeMap.properties.CITY13
+    const club13 =  europeMap.properties.CLUB13
+    const city14 =  europeMap.properties.CITY14
+    const club14 =  europeMap.properties.CLUB14
+
+
     const cityAndClub = city && club ? `${city} ${club}` : '¡Muy pronto!';
   
     setTooltipContent((
@@ -86,6 +98,22 @@ const Map = () => {
             {city9 && club9 && (
               <li>{city9} {club9}</li>
             )}
+                        {city10 && club10 && (
+              <li>{city10} {club10}</li>
+            )}
+                        {city11 && club11 && (
+              <li>{city11} {club11}</li>
+            )}
+                        {city12 && club12 && (
+              <li>{city12} {club12}</li>
+            )}
+                        {city13 && club13 && (
+              <li>{city13} {club13}</li>
+            )}
+                        {city14 && club14 && (
+              <li>{city14} {club14}</li>
+            )}
+            
           </ul>
         ) : (
           <p>{cityAndClub}</p>
