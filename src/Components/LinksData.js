@@ -899,7 +899,7 @@ export const whatsappLinksInfo = [
                 whatsappLink:"https://chat.whatsapp.com/Dir7ii3IF2o8Dn0bXkFbW0"            },
             {        
                 city: "Siena",        
-                whatsappLink:"https://chat.whatsapp.com/IsSMmK4S5I71HMVIs7kukC"            } ,
+                whatsappLink:"https://chat.whatsapp.com/JnPsiayhEGw7kNCAeLXe1Y"            } ,
             {        
                 city: "Turin",        
                 whatsappLink:"https://chat.whatsapp.com/HcyUNUE2BjP6GEwmBDvx45"            },
