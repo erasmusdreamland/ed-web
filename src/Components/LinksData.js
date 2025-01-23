@@ -2,6 +2,71 @@ import React, { useState } from "react";
 
 export const whatsappLinksInfo = [  
     {
+        country: "ERASMUS MUNDUS",
+        data: [      
+            {        
+                city: "Argentina",        
+                whatsappLink:"https://chat.whatsapp.com/DxYszA4rd9V3QLY5xgPfXe" 
+            } ,
+            {        
+                city: "Brasil",        
+                whatsappLink:"https://chat.whatsapp.com/L1c4CDF7OBNK4InQKN4zBb"  
+            } ,
+            {        
+                city: "Canada",        
+                whatsappLink:"https://chat.whatsapp.com/HxlQaSW1oIY49MDYnu7BX2" 
+            } ,
+            {        
+                city: "Colombia",        
+                whatsappLink:"https://chat.whatsapp.com/JawrFm31xgFFZiDSqST3s6"
+            } ,
+            {        
+                city: "Corea del Sur",        
+                whatsappLink:"https://chat.whatsapp.com/GVzglBbikTD3CT3qDDgKdA"
+            } ,
+            {        
+                city: "Ecuador",        
+                whatsappLink:"https://chat.whatsapp.com/FNbZcNTCGn9BPMEQa1iCPQ"    
+            },
+            {        
+                city: "EEUU",        
+                whatsappLink:"https://chat.whatsapp.com/LPhqnnXFS5JA68O1w04WgA"  
+            } ,
+            {        
+                city: "India",        
+                whatsappLink:"https://chat.whatsapp.com/GS44Sfm0QVIKsWnd8uWKWG"  
+            } ,
+            {        
+                city: "Japón",        
+                whatsappLink:"https://chat.whatsapp.com/Eh4vSRZOZtu5TTQQr1KgBP" 
+            }, 
+            {        
+                city: "México",        
+                whatsappLink:"https://chat.whatsapp.com/CvWsi8whodg45GJMp2iRZw"  
+            }, 
+            {        
+                city: "Paraguay",        
+                whatsappLink:"https://chat.whatsapp.com/JdvZxqx2eIhL1E6zjY7lW6" 
+            }, 
+            {        
+                city: "Perú",        
+                whatsappLink:"https://chat.whatsapp.com/LRmexFeZBpH8TNwFT6CPFm" 
+            }, 
+            {        
+                city: "Tailandia",        
+                whatsappLink:"https://chat.whatsapp.com/L0JfQLXjzpoCFLo3VA2EPl"
+            }, 
+            {        
+                city: "Taiwan",        
+                whatsappLink:"https://chat.whatsapp.com/ImJM5IjrzsnDqznEYW1hZK"
+            }, 
+            {        
+                city: "Uruguay",        
+                whatsappLink:"https://chat.whatsapp.com/Bnss2h0Bz0B2mwFMS6DQL3"
+            }, 
+        ]
+    },
+    {
         country: "Alemania",
         data: [ 
             {        
@@ -705,7 +770,11 @@ export const whatsappLinksInfo = [
     },
     {
         country: "Inglaterra",
-        data: [      
+        data: [    
+            {        
+                city: "Reino Unido General",        
+                whatsappLink:"https://chat.whatsapp.com/KU3HJ21oyaMGH8GDTLeBOd"    
+            },  
             {        
                 city: "Birmingham",        
                 whatsappLink:"https://chat.whatsapp.com/IcxsR307XVOBHqWWQIkclN"     
@@ -790,21 +859,36 @@ export const whatsappLinksInfo = [
         country: "Irlanda",
         data: [      
             {        
+                city: "Irlanda General",        
+                whatsappLink:"https://chat.whatsapp.com/Jcwn5RkmCH6JU1IAIkeTWl"    
+            } ,
+            {        
+                city: "Athlone",        
+                whatsappLink:"https://chat.whatsapp.com/H65tvSxw88j5WNek5DRHcd"    
+            } ,
+            {        
                 city: "Cork",        
-                whatsappLink: "https://chat.whatsapp.com/HBndUVPdDoN27yWoE9fswm"      
+                whatsappLink:"https://chat.whatsapp.com/IK7QTUBsqJsBejK4ePOrPu"     
             } ,
             {        
                 city: "Dublin",        
-                whatsappLink: "https://chat.whatsapp.com/Kwa9uzxuWg53zjSJ1BHAmd"      
+                whatsappLink:"https://chat.whatsapp.com/BBF1y4nvFV7F1g8KObbPLC"     
             } ,
             {        
                 city: "Galway",        
-                whatsappLink: "https://chat.whatsapp.com/Ce8yTcXhAsCLDLfR8WApFY"      
+                whatsappLink:"https://chat.whatsapp.com/GYnoY3rciueJ9sBYE9YiN2"    
             } ,
             {        
                 city: "Limerick",        
-                whatsappLink: "https://chat.whatsapp.com/Gt8WzBYpD7l4sm1upQggOx"      
-            }
+                whatsappLink:"https://chat.whatsapp.com/FTlFFWz4b9EDl7tYK3D0OB"     
+            },
+            {        
+                city: "Maynooth",        
+                whatsappLink:"https://chat.whatsapp.com/Kxfjd0nWiWC8IVBvocna1E"    
+            },
+            {        
+                city: "Watterford",        
+                whatsappLink:"https://chat.whatsapp.com/LNzCWwGskwY5Dsw8C9Ddqm"            }
         ]
     },
     {
@@ -986,16 +1070,16 @@ export const whatsappLinksInfo = [
         data: [      
             {        
                 city: "Letonia General",        
-                whatsappLink:"https://chat.whatsapp.com/G1hh2yh3i4l26bVmqteINN"     } ,
+                whatsappLink:"https://chat.whatsapp.com/G1hh2yh3i4l26bVmqteINN"   } ,
                 {        
                 city: "Jelgava",        
-                whatsappLink:"https://chat.whatsapp.com/GvSZFQcr9eLGqhOWC8I5Yx"      } ,
+                whatsappLink:"https://chat.whatsapp.com/J1EeSzHuVvCFFPjqdttaqk"     } ,
                 {        
                 city: "Liepaja",        
-                whatsappLink:"https://chat.whatsapp.com/GvSZFQcr9eLGqhOWC8I5Yx"      } ,
+                whatsappLink:"https://chat.whatsapp.com/DRC0Z1isWSw6IhX4IZfQuD"   } ,
                 {        
                 city: "Riga",        
-                whatsappLink:"https://chat.whatsapp.com/GvSZFQcr9eLGqhOWC8I5Yx"      } ,
+                whatsappLink:"https://chat.whatsapp.com/EKWXhWcFxKfFcthVpHhAiR"    } ,
 ]
     },
     {
@@ -1037,18 +1121,22 @@ export const whatsappLinksInfo = [
     },
     {
         country: "Malta",
-        data: [      
+        data: [    
+            {        
+                city: "Malta General",        
+                whatsappLink:"https://chat.whatsapp.com/Gyzx5kWYQA0K7YLdx2cNlv"     
+            } ,  
             {        
                 city: "Saint Julians",        
-                whatsappLink: "https://chat.whatsapp.com/DyEKMNUXyX251QIRuqSOlE"      
+                whatsappLink:"https://chat.whatsapp.com/HAz7Br0cBS12xWn34mHsuj"    
             } ,
             {        
                 city: "Sliema",        
-                whatsappLink: "https://chat.whatsapp.com/GIvfZG5jvuV8aAKwMIhshO"      
+                whatsappLink:"https://chat.whatsapp.com/GsnAVzWgnNw3alfJnP3c5n"     
             } ,
             {        
                 city: "Valletta",        
-                whatsappLink: "https://chat.whatsapp.com/Kgz73yiW1hrEWoj7oLsH8l"      
+                whatsappLink:"https://chat.whatsapp.com/GDIDSRFY6YV8Lw3vnjjzZN"   
             } 
 
         ]
@@ -1056,31 +1144,52 @@ export const whatsappLinksInfo = [
   
     {
         country: "Noruega",
-        data: [      
+        data: [  
+            {        
+                city: "Noruega General",        
+                whatsappLink:"https://chat.whatsapp.com/H3whNqEeLKb2Gp7JKzxhQ9"     
+            } ,   
+            {        
+                city: "Agder",        
+                whatsappLink:"https://chat.whatsapp.com/E2q40gxey4pFFXPmBIYqKh"    
+            } ,
             {        
                 city: "Bodø",        
-                whatsappLink: "https://chat.whatsapp.com/HKw1c4igQtlHFCXmke3iRd"      
+                whatsappLink:"https://chat.whatsapp.com/FKJg1hYHpoCIWtItzV9my1"     
             } ,
             {        
                 city: "Bergen",        
-                whatsappLink: "https://chat.whatsapp.com/JWWcjuY3RkD6hdF6f95nsz"      
+                whatsappLink:"https://chat.whatsapp.com/FVmUhyBGphDBS6HEpsgM0V"   
             },
             {        
+                city: "Haugesund",        
+                whatsappLink:"https://chat.whatsapp.com/LmJUtIdoATU5lKqXqaQIcY"  
+            },
+            {        
+                city: "Kongsberg",        
+                whatsappLink:"https://chat.whatsapp.com/DUDrl0A7YeABvZNVM6MEbP"    
+            } ,
+            {        
                 city: "Stavanger",        
-                whatsappLink: "https://chat.whatsapp.com/HWUCVAdb9dxL1mT8BsyGor"      
+                whatsappLink:"https://chat.whatsapp.com/Jo7upFU8TGWH4JxTjRAnC8"    
             } ,
             {        
                 city: "Tromso",        
-                whatsappLink: "https://chat.whatsapp.com/LEwkTKHXZ6XHfEOe7Xunuc"      
+                whatsappLink:"https://chat.whatsapp.com/Gjgv4JplKsFCF8Ug9yNYCx"    
             } ,
             {        
                 city: "Trondheim",        
-                whatsappLink: "https://chat.whatsapp.com/LIAXtBxlMbB8fe53x8zzRj"      
+                whatsappLink:"https://chat.whatsapp.com/BbINvSrCzAT5yQxoQhhsUA"     
             } ,
             {        
                 city: "Oslo",        
-                whatsappLink: "https://chat.whatsapp.com/JxhahNiZBel7dhLfBSFtpX"      
+                whatsappLink:"https://chat.whatsapp.com/JNQRobMioE5AIRXNmCMXYn"     
             } ,
+            {        
+                city: "Volda",        
+                whatsappLink:"https://chat.whatsapp.com/JkRHGG9lvBN2sYyfPZElYQ"   
+            } ,
+
 
         ]
     },
@@ -1387,40 +1496,56 @@ export const whatsappLinksInfo = [
         country: "Rumania",
         data: [      
             {        
+                city: "Rumania General",        
+                whatsappLink:"https://chat.whatsapp.com/Fv3UAzOYeW0FAmwUGknv6Z"    
+            } ,
+            {        
+                city: "Arad",        
+                whatsappLink:"https://chat.whatsapp.com/FcYphgbhzmAGHxzqi8qo5A"   
+            } ,
+            {        
+                city: "Bacau",        
+                whatsappLink:"https://chat.whatsapp.com/FUTIXjdhl7d6TXCaOKtkex"    
+            } ,
+            {        
                 city: "Brasov",        
-                whatsappLink: "https://t.co/SJoAC5jXpb"      
+                whatsappLink:"https://chat.whatsapp.com/FQRA5RlVy040YtjDve1MNb"   
             } ,
             {        
                 city: "Bucarest",        
-                whatsappLink: "https://t.co/N8dIg9CMia"      
+                whatsappLink:"https://chat.whatsapp.com/Ilal81WILNTDd5kuL6ZQdY"     
             } ,
             {        
                 city: "Cluj-Napoca",        
-                whatsappLink: "https://t.co/IMxEQMjozP"      
+                whatsappLink:"https://chat.whatsapp.com/Hd8ZPqg6AWVKMMaEH0squ1"  
             },
             {        
                 city: "Craiova",        
-                whatsappLink: "https://t.co/1596OM4hqS"      
+                whatsappLink:"https://chat.whatsapp.com/FDJYNSQmtoh0gLq1cAnQ2S"    
             },
             {        
                 city: "Iasi",        
-                whatsappLink: "https://t.co/V6kyIqVlN3"      
+                whatsappLink:"https://chat.whatsapp.com/DPIo6fZnOaqIghILa5vH1S"    
             } ,
             {        
                 city: "Petrosani",        
-                whatsappLink: "https://t.co/4rKbakhjYR"      
+                whatsappLink:"https://chat.whatsapp.com/Hha7OddSjdiJ4qAxF1H5v3" 
             } ,
             {        
                 city: "Oradea",        
-                whatsappLink: "https://t.co/CFOqFAkh2P"      
+                whatsappLink:"https://chat.whatsapp.com/IvfZs9ftZdpLSZwWPCM54N"  
             },
             {        
                 city: "Sibiu",        
-                whatsappLink: "https://t.co/RA7ZIWYtUw"      
+                whatsappLink:"https://chat.whatsapp.com/K90MmRjIX7MIrpbboHb8Sj"  
             },
             {        
                 city: "Timisoara",        
-                whatsappLink: "https://t.co/pxw3NCsBrd"      
+                whatsappLink:"https://chat.whatsapp.com/H4VB0B5Q5lMFNR5t4UfKrt"  
+            },
+            {        
+                city: "Suceava",        
+                whatsappLink:"https://chat.whatsapp.com/C710rNcwMxm5pxUujZNOrB"
             },
         ]
     },
@@ -1522,24 +1647,36 @@ export const whatsappLinksInfo = [
         country: "Suiza",
         data: [      
             {        
+                city: "Suiza General",        
+                whatsappLink:"https://chat.whatsapp.com/JxA9Ko7x6RaGtbMBo7zItH"   
+            } ,
+            {        
                 city: "Basilea",        
-                whatsappLink: "https://t.co/vZuMvKJfDg"      
+                whatsappLink:"https://chat.whatsapp.com/HSjSEpxTCoFCGvVuvf5sSI"   
             } ,
             {        
                 city: "Bern",        
-                whatsappLink: "https://t.co/txZjsr4viu"      
+                whatsappLink:"https://chat.whatsapp.com/CB0WOvJkn3cASHJhiIawKu"    
             } ,
             {        
-                city: "Geneva",        
-                whatsappLink: "https://t.co/BhOhZTLkg9"      
+                city: "Friburgo",        
+                whatsappLink:"https://chat.whatsapp.com/HPxZWN9XnDJBg2X4FrcEOn"
+            } ,
+            {        
+                city: "Ginebra",        
+                whatsappLink:"https://chat.whatsapp.com/KqYEaczpvvWHkzCDQA0X9e"
             } ,
             {        
                 city: "Lausanne",        
-                whatsappLink: "https://t.co/LJxCCiUzuj"      
+                whatsappLink:"https://chat.whatsapp.com/KVVzsHf34BcCT5wXAyFG3h"     
             },
             {        
+                city: "Lucerna",        
+                whatsappLink:"https://chat.whatsapp.com/KRTWNqqsVExDKR3lqHgNpU"    
+            } ,
+            {        
                 city: "Zürich",        
-                whatsappLink: "https://t.co/nLKLsROtrc"      
+                whatsappLink:"https://chat.whatsapp.com/BHMhIKnxcsJDz8EuckL3ve"   
             } 
         ]
     },
