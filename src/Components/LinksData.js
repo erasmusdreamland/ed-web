@@ -17,6 +17,10 @@ export const whatsappLinksInfo = [
                 whatsappLink:"https://chat.whatsapp.com/HxlQaSW1oIY49MDYnu7BX2" 
             } ,
             {        
+                city: "Chile",        
+                whatsappLink:"https://chat.whatsapp.com/KHGnhfiQT5R3KO1TgbUQe1" 
+            } ,
+            {        
                 city: "Colombia",        
                 whatsappLink:"https://chat.whatsapp.com/JawrFm31xgFFZiDSqST3s6"
             } ,
