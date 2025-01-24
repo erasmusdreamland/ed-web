@@ -1042,6 +1042,9 @@ export const whatsappLinksInfo = [
             {        
                 city: "Trento",        
                 whatsappLink:"https://chat.whatsapp.com/FzOiZQbV4DpHmluRo8FIdc"            } ,
+                {        
+                    city: "Teramo",        
+                    whatsappLink:"https://chat.whatsapp.com/Bu7oGjvqCU4I6L9AmCqLJT"            } ,
             {        
                 city: "Trieste",        
                 whatsappLink:"https://chat.whatsapp.com/HJlj89B8IE23Fz014qsFNy"            } ,
