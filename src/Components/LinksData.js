@@ -53,6 +53,10 @@ export const whatsappLinksInfo = [
                 whatsappLink:"https://chat.whatsapp.com/JdvZxqx2eIhL1E6zjY7lW6" 
             }, 
             {        
+                city: "Panamá",        
+                whatsappLink:"https://chat.whatsapp.com/EIynqAXOf4l61dlqhmHUfB" 
+            }, 
+            {        
                 city: "Perú",        
                 whatsappLink:"https://chat.whatsapp.com/LRmexFeZBpH8TNwFT6CPFm" 
             }, 
@@ -869,6 +873,10 @@ export const whatsappLinksInfo = [
             {        
                 city: "Athlone",        
                 whatsappLink:"https://chat.whatsapp.com/H65tvSxw88j5WNek5DRHcd"    
+            } ,
+            {        
+                city: "Belfast",        
+                whatsappLink:"https://chat.whatsapp.com/LOF2zKuMZQq0zubOb4JMyS"    
             } ,
             {        
                 city: "Cork",        
