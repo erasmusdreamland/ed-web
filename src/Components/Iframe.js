@@ -18,6 +18,6 @@ const IframeFourvenues = () => {
       <div id="fourvenues-iframe"></div>
     </div>
   );
-};
+};   
 
 export default IframeFourvenues;
