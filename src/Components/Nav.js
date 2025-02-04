@@ -4,9 +4,6 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import '../Styles/main.css';
 import Gallery from './Gallery';
 import CountriesGallery from './WhatsappGroups';
-import Events from './Events';
-import Croatia from './CroatiaScript';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Nav() {
   const navRef = useRef();
   const [showNav, setShowNav] = useState(false);
@@ -29,7 +26,7 @@ function Nav() {
           </Link>
 
 
-          <Link to="" onClick={() => { closeNav(); window.location.href = 'https://www.fourvenues.com/es/erasmus-dreamland'; }}>
+          <Link to="/entradas" onClick={closeNav}>
   COMPRAR ENTRADAS
 </Link>
           <Link to="/gallery" onClick={() => {closeNav(); Gallery();}}>

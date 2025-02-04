@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Nav from '../Components/Nav';
 import Home from '../Components/Home';
-import Events from '../Components/Events';
 import Gallery from '../Components/Gallery';
 import NotFound from '../Components/NotFound';
 import { cardData } from "../Components/CardList";
@@ -10,9 +9,9 @@ import ImageGallery from '../Components/ImageGallery';
 import { countryData } from '../Components/CountriesCards';
 import CountriesList from '../Components/CountriesCards';
 import WhatsappButtons from '../Components/WhatsappLinks';
-import Croatia from '../Components/CroatiaScript';
+import IframeFourvenues from '../Components/Iframe';
+
 import PrivacyPolicy from '../Components/PrivacyPolicy';
-import TicketsScript from '../Components/TicketsScript';
 
 function App() {
   return (
@@ -20,14 +19,10 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/tickets" element={<Events />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-
+        <Route path="/entradas" element={<IframeFourvenues />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/whatsapp-groups" element={<CountriesList />} />
-        <Route path="/croatia-festival" element={<Croatia />} />
-
-        <Route path="/tickets/:id" element={<TicketsScript />} />
 
         <Route component={NotFound} />
         {cardData.map((card) => (
